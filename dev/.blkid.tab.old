@@ -1,0 +1,3 @@
+<device DEVNO="0xca01" TIME="1370724356.35624" LABEL="cloudimg-rootfs" UUID="c517c8f8-681b-414f-b07c-ab1b3cf41f14" TYPE="ext4">/dev/xvda1</device>
+<device DEVNO="0xca11" TIME="1370724356.104963" LABEL="rootfs" UUID="daf0d42e-bcd5-4f44-8a70-7c0cc25d18b0" TYPE="ext4">/dev/xvdb1</device>
+<device DEVNO="0xca03" TIME="1370724357.913207" UUID="fb34032d-06b6-4f54-87f3-acfdc9bf9ddc" TYPE="swap">/dev/xvda3</device>

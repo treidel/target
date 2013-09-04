@@ -1,0 +1,5 @@
+/usr/lib/arm-linux-gnueabihf/gio/modules libglib2.0-0
+/usr/lib/gio/modules libglib2.0-0
+/usr/share/glib-2.0/schemas libglib2.0-0
+/etc/init ureadahead
+/etc/init.d ureadahead
