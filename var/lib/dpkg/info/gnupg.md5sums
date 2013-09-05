@@ -1,5 +1,5 @@
 373128854670934a78257e7fa7a08ab0  lib/udev/rules.d/40-gnupg.rules
-dc7d2f2a52041133b3c614f9388336c7  usr/bin/gpg
+4c4b2e80792953ac920d2f71989429be  usr/bin/gpg
 0aee0869be049b5e040af9cf07696094  usr/bin/gpg-zip
 c9a51d68b594a2b0fff64631574da71d  usr/bin/gpgsplit
 5330329ffc1f4d5c60ca3fbf3b4f7836  usr/bin/lspgpot
@@ -25,7 +25,7 @@ f533f2fcc70a13b3c6f1fbd55b8c50a1  usr/share/doc/gnupg/examples/convert-from-106
 7714f7d648c8f3fbc19181145dc04dc2  usr/share/gnupg/options.skel
 b3b9d1cd3a5294cb1e939ba08e719f23  usr/share/info/gnupg1.info.gz
 2800b8e3e7e4042a904d7303f9eb37d5  usr/share/man/man1/gpg-zip.1.gz
-5d9751d55914f93474341a395a9fd06a  usr/share/man/man1/gpg.1.gz
+0dee11f453fe73223b109c6e58f63ebe  usr/share/man/man1/gpg.1.gz
 21e2bb4fda45d11ef56eec94ced0573b  usr/share/man/man1/gpgsplit.1.gz
 6ece2f5718070520d4a75c6a432548c4  usr/share/man/man1/lspgpot.1.gz
 5e656a318cb296e73eeff4def1dc28a4  usr/share/man/man7/gnupg.7.gz

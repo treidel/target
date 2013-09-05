@@ -1,0 +1,411 @@
+Package: bcmwl-kernel-source
+Description-md5: 9da890d8409fb430fa6f9a0c8a37934a
+Description-en: Broadcom 802.11 Linux STA wireless driver source
+ This package contains Broadcom 802.11 Linux STA wireless driver
+ for use with Broadcom's BCM4311-, BCM4312-, BCM4313-, BCM4321-,
+ BCM4322-, BCM43224-, and BCM43225-, BCM43227- and BCM43228-based
+ hardware.
+
+Package: fglrx
+Description-md5: f88f3940903e83fbe361f936e7a1c96b
+Description-en: Video driver for the AMD graphics accelerators
+ Video driver for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides 2D display drivers
+ and hardware accelerated OpenGL.
+
+Package: fglrx-amdcccle
+Description-md5: e4521530a21739589b9c994e6a0287ff
+Description-en: Catalyst Control Center for the AMD graphics accelerators
+ Catalyst Control Center for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides the Catalyst Control Center, Linux Edition
+
+Package: fglrx-amdcccle-experimental-12
+Description-md5: e4521530a21739589b9c994e6a0287ff
+Description-en: Catalyst Control Center for the AMD graphics accelerators
+ Catalyst Control Center for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides the Catalyst Control Center, Linux Edition
+
+Package: fglrx-amdcccle-experimental-13
+Description-md5: e4521530a21739589b9c994e6a0287ff
+Description-en: Catalyst Control Center for the AMD graphics accelerators
+ Catalyst Control Center for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides the Catalyst Control Center, Linux Edition
+
+Package: fglrx-amdcccle-experimental-9
+Description-md5: e4521530a21739589b9c994e6a0287ff
+Description-en: Catalyst Control Center for the AMD graphics accelerators
+ Catalyst Control Center for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides the Catalyst Control Center, Linux Edition
+
+Package: fglrx-amdcccle-updates
+Description-md5: e4521530a21739589b9c994e6a0287ff
+Description-en: Catalyst Control Center for the AMD graphics accelerators
+ Catalyst Control Center for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides the Catalyst Control Center, Linux Edition
+
+Package: fglrx-dev
+Description-md5: 47e179ee70e8bf905ab9a4f7fb826866
+Description-en: Video driver for the AMD graphics accelerators (devel files)
+ Video driver for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides definitions for the GL and GLX extensions.
+
+Package: fglrx-experimental-12
+Description-md5: 2e91b2a964a24f2678718d3891384030
+Description-en: Experimental AMD binary Xorg driver and kernel module
+ 3D-accelerated proprietary graphics driver for AMD cards. May be
+ required for some newly released 3D software and games.
+ .
+ WARNING: This is an unstable beta driver.  This package is intended for
+ testers and early adopters, and not recommended for production hardware.
+ .
+ Release Notes:
+ http://support.amd.com/us/kbarticles/Pages/AMDCatalystSoftwareSuiteVersion1211BetaReleaseNotes.aspx
+
+Package: fglrx-experimental-12-dev
+Description-md5: 47e179ee70e8bf905ab9a4f7fb826866
+Description-en: Video driver for the AMD graphics accelerators (devel files)
+ Video driver for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides definitions for the GL and GLX extensions.
+
+Package: fglrx-experimental-13
+Description-md5: f88f3940903e83fbe361f936e7a1c96b
+Description-en: Video driver for the AMD graphics accelerators
+ Video driver for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides 2D display drivers
+ and hardware accelerated OpenGL.
+
+Package: fglrx-experimental-13-dev
+Description-md5: 47e179ee70e8bf905ab9a4f7fb826866
+Description-en: Video driver for the AMD graphics accelerators (devel files)
+ Video driver for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides definitions for the GL and GLX extensions.
+
+Package: fglrx-experimental-9
+Description-md5: 2e91b2a964a24f2678718d3891384030
+Description-en: Experimental AMD binary Xorg driver and kernel module
+ 3D-accelerated proprietary graphics driver for AMD cards. May be
+ required for some newly released 3D software and games.
+ .
+ WARNING: This is an unstable beta driver.  This package is intended for
+ testers and early adopters, and not recommended for production hardware.
+ .
+ Release Notes:
+ http://support.amd.com/us/kbarticles/Pages/AMDCatalystSoftwareSuiteVersion1211BetaReleaseNotes.aspx
+
+Package: fglrx-experimental-9-dev
+Description-md5: 47e179ee70e8bf905ab9a4f7fb826866
+Description-en: Video driver for the AMD graphics accelerators (devel files)
+ Video driver for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides definitions for the GL and GLX extensions.
+
+Package: fglrx-updates
+Description-md5: f88f3940903e83fbe361f936e7a1c96b
+Description-en: Video driver for the AMD graphics accelerators
+ Video driver for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides 2D display drivers
+ and hardware accelerated OpenGL.
+
+Package: fglrx-updates-dev
+Description-md5: 47e179ee70e8bf905ab9a4f7fb826866
+Description-en: Video driver for the AMD graphics accelerators (devel files)
+ Video driver for the AMD Radeon and FireGL graphics accelerators.
+ .
+ This package provides definitions for the GL and GLX extensions.
+
+Package: nvidia-173
+Description-md5: 26e1fd40083d3d561252f9efeaa58472
+Description-en: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver.
+ .
+ GPUs ranging from GeForce series 5 to GeForce series 9 are supported.
+ .
+ See /usr/share/doc/nvidia-173/README.txt.gz for a complete list
+ of supported GPUs and PCIIDs
+
+Package: nvidia-173-dev
+Description-md5: ef3b76d980ecacaf3116114549ba70ca
+Description-en: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: nvidia-173-updates
+Description-md5: 31ecdd21b5f8c331817bf74c28bb5c62
+Description-en: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver.
+ .
+ GPUs ranging from GeForce series 5 to GeForce series 9 are supported.
+ .
+ See /usr/share/doc/nvidia-173-updates/README.txt.gz for a complete list
+ of supported GPUs and PCIIDs
+
+Package: nvidia-173-updates-dev
+Description-md5: ef3b76d980ecacaf3116114549ba70ca
+Description-en: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: nvidia-304
+Description-md5: fb63396d0f55865eacfe0e8c033d4f11
+Description-en: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ GPUs such as GeForce series 6 or newer are supported.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-amd64-304.88-driver.html
+
+Package: nvidia-304-dev
+Description-md5: ef3b76d980ecacaf3116114549ba70ca
+Description-en: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: nvidia-304-updates
+Description-md5: fb63396d0f55865eacfe0e8c033d4f11
+Description-en: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ GPUs such as GeForce series 6 or newer are supported.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-amd64-304.88-driver.html
+
+Package: nvidia-304-updates-dev
+Description-md5: ef3b76d980ecacaf3116114549ba70ca
+Description-en: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: nvidia-319
+Description-md5: 5e5b51449f6fdee4831c609d49f508de
+Description-en: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-amd64-319.32-driver.html
+
+Package: nvidia-319-dev
+Description-md5: ef3b76d980ecacaf3116114549ba70ca
+Description-en: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: nvidia-319-updates
+Description-md5: 5e5b51449f6fdee4831c609d49f508de
+Description-en: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-amd64-319.32-driver.html
+
+Package: nvidia-319-updates-dev
+Description-md5: ef3b76d980ecacaf3116114549ba70ca
+Description-en: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: nvidia-96
+Description-md5: 42dea4421204b9672f0e171dd47f07a3
+Description-en: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver.
+ .
+ GPUs ranging from GeForce series 2 (except for GeForce2 GTS/GeForce2 Pro,
+ GeForce2 Ti and GeForce2 Ultra) to GeForce series 7 are supported.
+ .
+ See /usr/share/doc/nvidia-96/README.txt.gz for a complete list
+ of supported GPUs and PCIIDs
+
+Package: nvidia-96-dev
+Description-md5: ef3b76d980ecacaf3116114549ba70ca
+Description-en: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: nvidia-current
+Description-md5: cfae43419e26e7ddd43b755f8d4bc71a
+Description-en: Transitional package for nvidia-current
+ This is a transitional package for nvidia-current, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-current-dev
+Description-md5: d7f80b7df0e8d90395b8393509321e23
+Description-en: Transitional package for nvidia-current-dev
+ This is a transitional package for nvidia-current-dev, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-current-updates
+Description-md5: 64b398e30c3f43a0c784ba95d34f6b3b
+Description-en: Transitional package for nvidia-current-updates
+ This is a transitional package for nvidia-current-updates, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-current-updates-dev
+Description-md5: 6b612e1ecc06ee4f74b872b04cc4a80d
+Description-en: Transitional package for nvidia-current-updates-dev
+ This is a transitional package for nvidia-current-updates-dev, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-experimental-304
+Description-md5: dee43da3e9b5bec833f2645c8d53b85e
+Description-en: Transitional package for nvidia-experimental-304
+ This is a transitional package for nvidia-experimental-304, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-experimental-304-dev
+Description-md5: 11ccac8060b1032f1df8047b447e2153
+Description-en: Transitional package for nvidia-experimental-304-dev
+ This is a transitional package for nvidia-experimental-304-dev, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-experimental-310
+Description-md5: 8ee99c0b64f9c65100bb2e22bd5daf30
+Description-en: Transitional package for nvidia-experimental-310
+ This is a transitional package for nvidia-experimental-310, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-experimental-310-dev
+Description-md5: 6e2522193c4c51af83214f2d55f373fb
+Description-en: Transitional package for nvidia-experimental-310-dev
+ This is a transitional package for nvidia-experimental-310-dev, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-304
+Description-md5: 8042538699e45b2e546e12d11630df7e
+Description-en: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ GPUs such as GeForce series 6 or newer are supported.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-ia32-304.88-driver.html
+
+Package: nvidia-304-updates
+Description-md5: 8042538699e45b2e546e12d11630df7e
+Description-en: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ GPUs such as GeForce series 6 or newer are supported.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-ia32-304.88-driver.html
+
+Package: nvidia-319
+Description-md5: 42349785efda8240f44db77c31ecfed9
+Description-en: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-ia32-319.32-driver.html
+
+Package: nvidia-319-updates
+Description-md5: 42349785efda8240f44db77c31ecfed9
+Description-en: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-ia32-319.32-driver.html
+

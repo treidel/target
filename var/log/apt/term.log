@@ -1,0 +1,313 @@
+
+Log started: 2000-01-01  00:18:35
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10801 files and directories currently installed.)
+Preparing to replace base-files 6.5ubuntu6.5 (using .../base-files_6.5ubuntu6.6_armhf.deb) ...
+Unpacking replacement base-files ...
+Setting up base-files (6.5ubuntu6.6) ...
+Installing new version of config file /etc/issue ...
+Installing new version of config file /etc/issue.net ...
+Installing new version of config file /etc/lsb-release ...
+Installing new version of config file /etc/os-release ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10801 files and directories currently installed.)
+Preparing to replace libssl1.0.0 1.0.1-4ubuntu5.9 (using .../libssl1.0.0_1.0.1-4ubuntu5.10_armhf.deb) ...
+Unpacking replacement libssl1.0.0 ...
+Setting up libssl1.0.0 (1.0.1-4ubuntu5.10) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10801 files and directories currently installed.)
+Preparing to replace python2.7 2.7.3-0ubuntu3.1 (using .../python2.7_2.7.3-0ubuntu3.2_armhf.deb) ...
+Unpacking replacement python2.7 ...
+Preparing to replace python2.7-minimal 2.7.3-0ubuntu3.1 (using .../python2.7-minimal_2.7.3-0ubuntu3.2_armhf.deb) ...
+Unpacking replacement python2.7-minimal ...
+Setting up python2.7-minimal (2.7.3-0ubuntu3.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10799 files and directories currently installed.)
+Preparing to replace python-minimal 2.7.3-0ubuntu2 (using .../python-minimal_2.7.3-0ubuntu2.2_armhf.deb) ...
+Unpacking replacement python-minimal ...
+Setting up python-minimal (2.7.3-0ubuntu2.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10799 files and directories currently installed.)
+Preparing to replace python 2.7.3-0ubuntu2 (using .../python_2.7.3-0ubuntu2.2_armhf.deb) ...
+Unpacking replacement python ...
+Preparing to replace libapt-pkg4.12 0.8.16~exp12ubuntu10.10 (using .../libapt-pkg4.12_0.8.16~exp12ubuntu10.12_armhf.deb) ...
+Unpacking replacement libapt-pkg4.12 ...
+Setting up libapt-pkg4.12 (0.8.16~exp12ubuntu10.12) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10799 files and directories currently installed.)
+Preparing to replace gpgv 1.4.11-3ubuntu2.2 (using .../gpgv_1.4.11-3ubuntu2.3_armhf.deb) ...
+Unpacking replacement gpgv ...
+Setting up gpgv (1.4.11-3ubuntu2.3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10799 files and directories currently installed.)
+Preparing to replace gnupg 1.4.11-3ubuntu2.2 (using .../gnupg_1.4.11-3ubuntu2.3_armhf.deb) ...
+Unpacking replacement gnupg ...
+Setting up gnupg (1.4.11-3ubuntu2.3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10799 files and directories currently installed.)
+Preparing to replace apt 0.8.16~exp12ubuntu10.10 (using .../apt_0.8.16~exp12ubuntu10.12_armhf.deb) ...
+Unpacking replacement apt ...
+Setting up apt (0.8.16~exp12ubuntu10.12) ...
+gpg: key 437D05B5 was created 148330278 seconds in the future (time warp or clock problem)
+gpg: key 437D05B5 was created 148330278 seconds in the future (time warp or clock problem)
+gpg: key 437D05B5 was created 148330278 seconds in the future (time warp or clock problem)
+gpg: key 437D05B5 was created 148330278 seconds in the future (time warp or clock problem)
+gpg: key 437D05B5 was created 148330278 seconds in the future (time warp or clock problem)
+gpg: key 437D05B5 was created 148330278 seconds in the future (time warp or clock problem)
+gpg: key 437D05B5: "Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>" not changed
+gpg: key FBB75451 was created 157747807 seconds in the future (time warp or clock problem)
+gpg: key FBB75451 was created 157747807 seconds in the future (time warp or clock problem)
+gpg: key FBB75451 was created 157747807 seconds in the future (time warp or clock problem)
+gpg: key FBB75451: "Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>" not changed
+gpg: key C0B21F32 was created 390084959 seconds in the future (time warp or clock problem)
+gpg: key C0B21F32 was created 390084959 seconds in the future (time warp or clock problem)
+gpg: key C0B21F32 was created 390084959 seconds in the future (time warp or clock problem)
+gpg: key C0B21F32: "Ubuntu Archive Automatic Signing Key (2012) <ftpmaster@ubuntu.com>" not changed
+gpg: key EFE21092 was created 390088271 seconds in the future (time warp or clock problem)
+gpg: key EFE21092 was created 390088271 seconds in the future (time warp or clock problem)
+gpg: key EFE21092 was created 390088271 seconds in the future (time warp or clock problem)
+gpg: key EFE21092: "Ubuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>" not changed
+gpg: Total number processed: 4
+gpg:              unchanged: 4
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10799 files and directories currently installed.)
+Preparing to replace libapt-inst1.4 0.8.16~exp12ubuntu10.10 (using .../libapt-inst1.4_0.8.16~exp12ubuntu10.12_armhf.deb) ...
+Unpacking replacement libapt-inst1.4 ...
+Preparing to replace libdbus-1-3 1.4.18-1ubuntu1.3 (using .../libdbus-1-3_1.4.18-1ubuntu1.4_armhf.deb) ...
+Unpacking replacement libdbus-1-3 ...
+Preparing to replace libdrm2 2.4.43-0ubuntu0.0.1 (using .../libdrm2_2.4.43-0ubuntu0.0.2_armhf.deb) ...
+Unpacking replacement libdrm2 ...
+Preparing to replace libdrm-nouveau1a 2.4.43-0ubuntu0.0.1 (using .../libdrm-nouveau1a_2.4.43-0ubuntu0.0.2_armhf.deb) ...
+Unpacking replacement libdrm-nouveau1a ...
+Preparing to replace libdrm-radeon1 2.4.43-0ubuntu0.0.1 (using .../libdrm-radeon1_2.4.43-0ubuntu0.0.2_armhf.deb) ...
+Unpacking replacement libdrm-radeon1 ...
+Preparing to replace libudev0 175-0ubuntu9.3 (using .../libudev0_175-0ubuntu9.4_armhf.deb) ...
+Unpacking replacement libudev0 ...
+Preparing to replace lsb-base 4.0-0ubuntu20.2 (using .../lsb-base_4.0-0ubuntu20.3_all.deb) ...
+Unpacking replacement lsb-base ...
+Setting up lsb-base (4.0-0ubuntu20.3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10799 files and directories currently installed.)
+Preparing to replace apt-utils 0.8.16~exp12ubuntu10.10 (using .../apt-utils_0.8.16~exp12ubuntu10.12_armhf.deb) ...
+Unpacking replacement apt-utils ...
+Preparing to replace lsb-release 4.0-0ubuntu20.2 (using .../lsb-release_4.0-0ubuntu20.3_all.deb) ...
+Unpacking replacement lsb-release ...
+Preparing to replace initramfs-tools 0.99ubuntu13.1 (using .../initramfs-tools_0.99ubuntu13.2_all.deb) ...
+Unpacking replacement initramfs-tools ...
+Preparing to replace initramfs-tools-bin 0.99ubuntu13.1 (using .../initramfs-tools-bin_0.99ubuntu13.2_armhf.deb) ...
+Unpacking replacement initramfs-tools-bin ...
+Preparing to replace udev 175-0ubuntu9.3 (using .../udev_175-0ubuntu9.4_armhf.deb) ...
+Adding 'diversion of /sbin/udevadm to /sbin/udevadm.upgrade by fake-udev'
+Unpacking replacement udev ...
+Preparing to replace dosfstools 3.0.12-1ubuntu1 (using .../dosfstools_3.0.12-1ubuntu1.1_armhf.deb) ...
+Unpacking replacement dosfstools ...
+Preparing to replace openssl 1.0.1-4ubuntu5.9 (using .../openssl_1.0.1-4ubuntu5.10_armhf.deb) ...
+Unpacking replacement openssl ...
+Processing triggers for ureadahead ...
+Setting up python2.7 (2.7.3-0ubuntu3.2) ...
+Setting up python (2.7.3-0ubuntu2.2) ...
+Setting up libapt-inst1.4 (0.8.16~exp12ubuntu10.12) ...
+Setting up libdbus-1-3 (1.4.18-1ubuntu1.4) ...
+Setting up libdrm2 (2.4.43-0ubuntu0.0.2) ...
+Setting up libdrm-nouveau1a (2.4.43-0ubuntu0.0.2) ...
+Setting up libdrm-radeon1 (2.4.43-0ubuntu0.0.2) ...
+Setting up libudev0 (175-0ubuntu9.4) ...
+Setting up apt-utils (0.8.16~exp12ubuntu10.12) ...
+Setting up lsb-release (4.0-0ubuntu20.3) ...
+Setting up initramfs-tools-bin (0.99ubuntu13.2) ...
+Setting up dosfstools (3.0.12-1ubuntu1.1) ...
+Setting up openssl (1.0.1-4ubuntu5.10) ...
+Setting up initramfs-tools (0.99ubuntu13.2) ...
+update-initramfs: deferring update (trigger activated)
+Setting up udev (175-0ubuntu9.4) ...
+udev stop/waiting
+udev start/running, process 1101
+Removing 'diversion of /sbin/udevadm to /sbin/udevadm.upgrade by fake-udev'
+update-initramfs: deferring update (trigger activated)
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Processing triggers for initramfs-tools ...
+Log ended: 2000-01-01  00:20:31
+
+Log started: 2000-01-01  00:43:21
+Selecting previously unselected package libgdbm3.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10806 files and directories currently installed.)
+Unpacking libgdbm3 (from .../libgdbm3_1.8.3-10_armhf.deb) ...
+Selecting previously unselected package libpipeline1.
+Unpacking libpipeline1 (from .../libpipeline1_1.2.1-1_armhf.deb) ...
+Selecting previously unselected package bsdmainutils.
+Unpacking bsdmainutils (from .../bsdmainutils_8.2.3ubuntu1_armhf.deb) ...
+Selecting previously unselected package groff-base.
+Unpacking groff-base (from .../groff-base_1.21-7_armhf.deb) ...
+Selecting previously unselected package man-db.
+Unpacking man-db (from .../man-db_2.6.1-2ubuntu1_armhf.deb) ...
+Setting up libgdbm3 (1.8.3-10) ...
+Setting up libpipeline1 (1.2.1-1) ...
+Setting up bsdmainutils (8.2.3ubuntu1) ...
+update-alternatives: using /usr/bin/bsd-write to provide /usr/bin/write (write) in auto mode.
+update-alternatives: using /usr/bin/bsd-from to provide /usr/bin/from (from) in auto mode.
+Setting up groff-base (1.21-7) ...
+Setting up man-db (2.6.1-2ubuntu1) ...
+Building database of manual pages ...
+
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Log ended: 2000-01-01  00:44:18
+
+Log started: 2000-01-01  00:46:25
+Selecting previously unselected package gdbserver.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11266 files and directories currently installed.)
+Unpacking gdbserver (from .../gdbserver_7.4-2012.04-0ubuntu2.1_armhf.deb) ...
+Processing triggers for man-db ...
+Setting up gdbserver (7.4-2012.04-0ubuntu2.1) ...
+Log ended: 2000-01-01  00:46:33
+
+Log started: 2000-01-01  00:59:32
+Selecting previously unselected package libev4.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11272 files and directories currently installed.)
+Unpacking libev4 (from .../libev4_1%3a4.11-1_armhf.deb) ...
+Setting up libev4 (1:4.11-1) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Log ended: 2000-01-01  00:59:36
+
+Log started: 2000-01-01  01:03:17
+Selecting previously unselected package libbluetooth3.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11277 files and directories currently installed.)
+Unpacking libbluetooth3 (from .../libbluetooth3_4.98-2ubuntu7_armhf.deb) ...
+Setting up libbluetooth3 (4.98-2ubuntu7) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Log ended: 2000-01-01  01:03:21
+
+Log started: 2000-01-01  01:06:16
+Selecting previously unselected package libapr1.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11287 files and directories currently installed.)
+Unpacking libapr1 (from .../libapr1_1.4.6-1_armhf.deb) ...
+Selecting previously unselected package libaprutil1.
+Unpacking libaprutil1 (from .../libaprutil1_1.3.12+dfsg-3_armhf.deb) ...
+Selecting previously unselected package liblog4cxx10.
+Unpacking liblog4cxx10 (from .../liblog4cxx10_0.10.0-1.2ubuntu2_armhf.deb) ...
+Setting up libapr1 (1.4.6-1) ...
+Setting up libaprutil1 (1.3.12+dfsg-3) ...
+Setting up liblog4cxx10 (0.10.0-1.2ubuntu2) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Log ended: 2000-01-01  01:06:23
+
+Log started: 2000-01-01  01:09:12
+Selecting previously unselected package libprotobuf-lite7.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11307 files and directories currently installed.)
+Unpacking libprotobuf-lite7 (from .../libprotobuf-lite7_2.4.1-1ubuntu2_armhf.deb) ...
+Setting up libprotobuf-lite7 (2.4.1-1ubuntu2) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Log ended: 2000-01-01  01:09:15
+
+Log started: 2000-01-01  01:11:07
+Selecting previously unselected package libasound2.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11312 files and directories currently installed.)
+Unpacking libasound2 (from .../libasound2_1.0.25-1ubuntu10.2_armhf.deb) ...
+Setting up libasound2 (1.0.25-1ubuntu10.2) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Log ended: 2000-01-01  01:11:12
+
+Log started: 2000-01-01  01:13:23
+Selecting previously unselected package libxml2.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11439 files and directories currently installed.)
+Unpacking libxml2 (from .../libxml2_2.7.8.dfsg-5.1ubuntu4.6_armhf.deb) ...
+Selecting previously unselected package libgeoip1.
+Unpacking libgeoip1 (from .../libgeoip1_1.4.8+dfsg-2_armhf.deb) ...
+Selecting previously unselected package libisc83.
+Unpacking libisc83 (from .../libisc83_1%3a9.8.1.dfsg.P1-4ubuntu0.7_armhf.deb) ...
+Selecting previously unselected package libdns81.
+Unpacking libdns81 (from .../libdns81_1%3a9.8.1.dfsg.P1-4ubuntu0.7_armhf.deb) ...
+Selecting previously unselected package libisccc80.
+Unpacking libisccc80 (from .../libisccc80_1%3a9.8.1.dfsg.P1-4ubuntu0.7_armhf.deb) ...
+Selecting previously unselected package libisccfg82.
+Unpacking libisccfg82 (from .../libisccfg82_1%3a9.8.1.dfsg.P1-4ubuntu0.7_armhf.deb) ...
+Selecting previously unselected package libbind9-80.
+Unpacking libbind9-80 (from .../libbind9-80_1%3a9.8.1.dfsg.P1-4ubuntu0.7_armhf.deb) ...
+Selecting previously unselected package liblwres80.
+Unpacking liblwres80 (from .../liblwres80_1%3a9.8.1.dfsg.P1-4ubuntu0.7_armhf.deb) ...
+Selecting previously unselected package bind9-host.
+Unpacking bind9-host (from .../bind9-host_1%3a9.8.1.dfsg.P1-4ubuntu0.7_armhf.deb) ...
+Selecting previously unselected package dnsutils.
+Unpacking dnsutils (from .../dnsutils_1%3a9.8.1.dfsg.P1-4ubuntu0.7_armhf.deb) ...
+Selecting previously unselected package geoip-database.
+Unpacking geoip-database (from .../geoip-database_20111220-1_all.deb) ...
+Selecting previously unselected package sgml-base.
+Unpacking sgml-base (from .../sgml-base_1.26+nmu1ubuntu1_all.deb) ...
+Selecting previously unselected package xml-core.
+Unpacking xml-core (from .../archives/xml-core_0.13_all.deb) ...
+Processing triggers for man-db ...
+Setting up libxml2 (2.7.8.dfsg-5.1ubuntu4.6) ...
+Setting up libgeoip1 (1.4.8+dfsg-2) ...
+Setting up libisc83 (1:9.8.1.dfsg.P1-4ubuntu0.7) ...
+Setting up libdns81 (1:9.8.1.dfsg.P1-4ubuntu0.7) ...
+Setting up libisccc80 (1:9.8.1.dfsg.P1-4ubuntu0.7) ...
+Setting up libisccfg82 (1:9.8.1.dfsg.P1-4ubuntu0.7) ...
+Setting up libbind9-80 (1:9.8.1.dfsg.P1-4ubuntu0.7) ...
+Setting up liblwres80 (1:9.8.1.dfsg.P1-4ubuntu0.7) ...
+Setting up bind9-host (1:9.8.1.dfsg.P1-4ubuntu0.7) ...
+Setting up dnsutils (1:9.8.1.dfsg.P1-4ubuntu0.7) ...
+Setting up geoip-database (20111220-1) ...
+Setting up sgml-base (1.26+nmu1ubuntu1) ...
+Setting up xml-core (0.13) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Log ended: 2000-01-01  01:13:54
+
+Log started: 2000-01-01  01:20:02
+Selecting previously unselected package bluez-hcidump.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11570 files and directories currently installed.)
+Unpacking bluez-hcidump (from .../bluez-hcidump_2.2-1_armhf.deb) ...
+Processing triggers for man-db ...
+Setting up bluez-hcidump (2.2-1) ...
+Log ended: 2000-01-01  01:20:10
+
+Log started: 2000-01-01  01:23:21
+Selecting previously unselected package libdbus-glib-1-2.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11575 files and directories currently installed.)
+Unpacking libdbus-glib-1-2 (from .../libdbus-glib-1-2_0.98-1ubuntu1.1_armhf.deb) ...
+Selecting previously unselected package libcap-ng0.
+Unpacking libcap-ng0 (from .../libcap-ng0_0.6.6-1ubuntu1_armhf.deb) ...
+Selecting previously unselected package dbus.
+Unpacking dbus (from .../dbus_1.4.18-1ubuntu1.4_armhf.deb) ...
+Selecting previously unselected package python-dbus-dev.
+Unpacking python-dbus-dev (from .../python-dbus-dev_1.0.0-1ubuntu1_all.deb) ...
+Selecting previously unselected package python-dbus.
+Unpacking python-dbus (from .../python-dbus_1.0.0-1ubuntu1_armhf.deb) ...
+Selecting previously unselected package bluez.
+Unpacking bluez (from .../bluez_4.98-2ubuntu7_armhf.deb) ...
+Selecting previously unselected package libgirepository-1.0-1.
+Unpacking libgirepository-1.0-1 (from .../libgirepository-1.0-1_1.32.0-1_armhf.deb) ...
+Selecting previously unselected package gir1.2-glib-2.0.
+Unpacking gir1.2-glib-2.0 (from .../gir1.2-glib-2.0_1.32.0-1_armhf.deb) ...
+Selecting previously unselected package python-gi.
+Unpacking python-gi (from .../python-gi_3.2.2-1~precise_armhf.deb) ...
+Processing triggers for ureadahead ...
+Processing triggers for man-db ...
+Setting up libdbus-glib-1-2 (0.98-1ubuntu1.1) ...
+Setting up libcap-ng0 (0.6.6-1ubuntu1) ...
+Setting up dbus (1.4.18-1ubuntu1.4) ...
+dbus start/running, process 8545
+Setting up python-dbus-dev (1.0.0-1ubuntu1) ...
+Setting up python-dbus (1.0.0-1ubuntu1) ...
+Remove stale byte-compiled files...
+Setting up bluez (4.98-2ubuntu7) ...
+bluetooth start/running, process 8649
+Setting up libgirepository-1.0-1 (1.32.0-1) ...
+Setting up gir1.2-glib-2.0 (1.32.0-1) ...
+Setting up python-gi (3.2.2-1~precise) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Log ended: 2000-01-01  01:23:51
+
+Log started: 2000-01-01  01:29:28
+Selecting previously unselected package busybox.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11858 files and directories currently installed.)
+Unpacking busybox (from .../busybox_1%3a1.18.5-1ubuntu4.1_armhf.deb) ...
+Selecting previously unselected package udhcpd.
+Unpacking udhcpd (from .../udhcpd_1%3a1.18.5-1ubuntu4.1_all.deb) ...
+Processing triggers for man-db ...
+Processing triggers for ureadahead ...
+Setting up busybox (1:1.18.5-1ubuntu4.1) ...
+Setting up udhcpd (1:1.18.5-1ubuntu4.1) ...
+udhcpd: Disabled. Edit /etc/default/udhcpd to enable it.
+Log ended: 2000-01-01  01:29:41

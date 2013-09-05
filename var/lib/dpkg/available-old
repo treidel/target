@@ -115,6 +115,33 @@ Homepage: http://gondor.apana.org.au/~herbert/dash/
 Description-md5: 8d4d9c32c6b2b70328f7f774a0cc1248
 Task: minimal
 
+Package: libprotobuf-lite7
+Priority: extra
+Section: libs
+Installed-Size: 187
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: protobuf
+Version: 2.4.1-1ubuntu2
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.4.0)
+Size: 59278
+Description: protocol buffers C++ library (lite version)
+ Protocol buffers are a flexible, efficient, automated mechanism for
+ serializing structured data - similar to XML, but smaller, faster, and
+ simpler. You define how you want your data to be structured once, then you can
+ use special generated source code to easily write and read your structured
+ data to and from a variety of data streams and using a variety of languages.
+ You can even update your data structure without breaking deployed programs
+ that are compiled against the "old" format.
+ .
+ Google uses Protocol Buffers for almost all of its internal RPC protocols and
+ file formats.
+ .
+ This package contains the runtime library needed for C++ applications whose
+ message definitions have the "lite runtime" optimization setting.
+Homepage: http://code.google.com/p/protobuf/
+Original-Maintainer: Iustin Pop <iustin@debian.org>
+
 Package: libxdmcp6
 Multi-Arch: same
 Priority: optional
@@ -261,14 +288,14 @@ Section: utils
 Installed-Size: 363
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: all
-Version: 0.99ubuntu13.1
+Version: 0.99ubuntu13.2
 Provides: linux-initramfs-tool
-Depends: initramfs-tools-bin (>= 0.99ubuntu13.1), initramfs-tools-bin (<< 0.99ubuntu13.1.1~), klibc-utils (>= 1.5.9-1), busybox-initramfs (>= 1:1.13.3-1ubuntu5), cpio, module-init-tools, udev (>= 147~-5), findutils (>= 4.2.24), util-linux (>> 2.15~rc1)
+Depends: initramfs-tools-bin (>= 0.99ubuntu13.2), initramfs-tools-bin (<< 0.99ubuntu13.2.1~), klibc-utils (>= 1.5.9-1), busybox-initramfs (>= 1:1.13.3-1ubuntu5), cpio, module-init-tools, udev (>= 147~-5), findutils (>= 4.2.24), util-linux (>> 2.15~rc1)
 Suggests: bash-completion
 Breaks: cryptsetup (<< 2:1.1.0-2.1), elilo (<< 3.12-3.1~), lilo (<< 22.8-8.2~), mountall (<< 2.0~), s390-tools (<< 1.8.3-2~)
 Conflicts: usplash (<< 0.5.50)
 Filename: pool/main/i/initramfs-tools/initramfs-tools_0.99ubuntu13_all.deb
-Size: 49014
+Size: 49214
 MD5sum: 7eb03e72d5b8daf12e69da8900049860
 Description: tools for generating an initramfs
  This package contains tools to create and boot an initramfs for packaged 2.6
@@ -302,6 +329,31 @@ SHA256: 820cb65ba95aae0aad7db39e15751751b5eb5b549e7917eb0d28adf12b0bdfe2
 Description-md5: 0d90ffc36746b1d25c5b125ef2221357
 Task: minimal
 
+Package: libxml2
+Multi-Arch: same
+Priority: standard
+Section: libs
+Installed-Size: 1182
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 2.7.8.dfsg-5.1ubuntu4.6
+Depends: libc6 (>= 2.15-0ubuntu8), zlib1g (>= 1:1.2.3.3.dfsg)
+Pre-Depends: multiarch-support
+Recommends: xml-core
+Size: 550368
+Description: GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package provides a library providing an extensive API to handle
+ such XML data files.
+Homepage: http://xmlsoft.org/
+Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+
 Package: login
 Essential: yes
 Priority: required
@@ -330,15 +382,15 @@ Package: gpgv
 Multi-Arch: foreign
 Priority: important
 Section: utils
-Installed-Size: 298
+Installed-Size: 299
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: gnupg
-Version: 1.4.11-3ubuntu2.2
+Version: 1.4.11-3ubuntu2.3
 Depends: libbz2-1.0, libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libreadline6 (>= 6.0), zlib1g (>= 1:1.1.4)
 Suggests: gnupg
 Filename: pool/main/g/gnupg/gpgv_1.4.11-3ubuntu2_armhf.deb
-Size: 152078
+Size: 152008
 MD5sum: 0b791e3115316ae025e498a7b2e48925
 Description: GNU privacy guard - signature verification tool
  GnuPG is GNU's tool for secure communication and data storage.
@@ -358,12 +410,12 @@ Installed-Size: 1815
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: openssl
-Version: 1.0.1-4ubuntu5.9
+Version: 1.0.1-4ubuntu5.10
 Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0
 Pre-Depends: multiarch-support
 Breaks: openssh-client (<< 1:5.9p1-4), openssh-server (<< 1:5.9p1-4)
 Filename: pool/main/o/openssl/libssl1.0.0_1.0.1-4ubuntu3_armhf.deb
-Size: 801446
+Size: 801572
 MD5sum: d3ffee095a9b9b6ef225dfdae7951aa6
 Description: SSL shared libraries
  libssl and libcrypto shared libraries needed by programs like
@@ -397,13 +449,13 @@ Installed-Size: 253
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: dbus
-Version: 1.4.18-1ubuntu1.3
+Version: 1.4.18-1ubuntu1.4
 Depends: libc6 (>= 2.15-0ubuntu8)
 Pre-Depends: multiarch-support
 Recommends: dbus
 Breaks: kde-window-manager (<< 4:4.4.5-9), kdebase-workspace-bin (<< 4:4.4.5-9)
 Filename: pool/main/d/dbus/libdbus-1-3_1.4.18-1ubuntu1_armhf.deb
-Size: 116814
+Size: 117112
 MD5sum: 580e029b75bb10d128cb8a1428764fae
 Description: simple interprocess messaging system (library)
  D-Bus is a message bus, used for sending messages between applications.
@@ -469,6 +521,98 @@ SHA256: d1b862e7f8d4f5df60efbd965f36d944ae6d3a7cbd90664cdb42213a148edef4
 Description-md5: aa11fa9e12227fc9a1de7b2cb193c270
 Task: minimal
 
+Package: man-db
+Multi-Arch: foreign
+Priority: important
+Section: doc
+Installed-Size: 1544
+Maintainer: Colin Watson <cjwatson@debian.org>
+Architecture: armhf
+Version: 2.6.1-2ubuntu1
+Replaces: man, manpages-de (<< 0.5-4), nlsutils
+Provides: man, man-browser
+Depends: groff-base (>= 1.18.1.1-15), bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, dpkg (>= 1.9.0), libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libgdbm3 (>= 1.8.3), libpipeline1 (>= 1.1.0), zlib1g (>= 1:1.1.4)
+Suggests: groff, less, www-browser
+Conflicts: man, suidmanager (<< 0.50)
+Size: 697564
+Description: on-line manual pager
+ This package provides the man command, the primary way of examining the
+ on-line help files (manual pages). Other utilities provided include the
+ whatis and apropos commands for searching the manual page database, the
+ manpath utility for determining the manual page search path, and the
+ maintenance utilities mandb, catman and zsoelim. man-db uses the groff
+ suite of programs to format and display the manual pages.
+Homepage: http://man-db.nongnu.org/
+
+Package: libgdbm3
+Multi-Arch: same
+Priority: important
+Section: libs
+Installed-Size: 97
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: gdbm
+Version: 1.8.3-10
+Depends: libc6 (>= 2.4), dpkg (>= 1.15.4) | install-info
+Pre-Depends: multiarch-support
+Size: 31916
+Description: GNU dbm database routines (runtime version)
+ GNU dbm ('gdbm') is a library of database functions that use extendible
+ hashing and works similarly to the standard UNIX 'dbm' functions.
+ .
+ The basic use of 'gdbm' is to store key/data pairs in a data file, thus
+ providing a persistent version of the 'dictionary' Abstract Data Type
+ ('hash' to perl programmers).
+Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Homepage: http://directory.fsf.org/project/gdbm/
+
+Package: python-dbus
+Priority: optional
+Section: python
+Installed-Size: 356
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: dbus-python
+Version: 1.0.0-1ubuntu1
+Replaces: python2.4-dbus
+Provides: python2.7-dbus
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), libc6 (>= 2.4), libdbus-1-3 (>= 1.2.16), libdbus-glib-1-2 (>= 0.78), libglib2.0-0 (>= 2.12.0), python-dbus-dev
+Recommends: python-gi | python-gobject-2 | python-qt4-dbus
+Suggests: python-dbus-doc, python-dbus-dbg
+Breaks: gajim (<< 0.11.1), gnome-osd (<< 0.12.0), python-qt4-dbus (<< 4.8.3-3)
+Conflicts: python2.4-dbus
+Size: 90704
+Description: simple interprocess messaging system (Python interface)
+ D-Bus is a message bus, used for sending messages between applications.
+ Conceptually, it fits somewhere in between raw sockets and CORBA in
+ terms of complexity.
+ .
+ This package provides a Python interface to D-Bus.
+ .
+ See the dbus description for more information about D-Bus in general.
+Homepage: http://www.freedesktop.org/wiki/Software/DBusBindings#Python
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+
+Package: libbind9-80
+Priority: standard
+Section: libs
+Installed-Size: 84
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: bind9
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.7
+Replaces: libbind0
+Depends: libc6 (>= 2.15-0ubuntu8), libdns81, libisc83, libisccfg82
+Conflicts: libbind0, libbind9-41
+Size: 22514
+Description: BIND9 Shared Library used by BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ This package delivers the libbind9 shared library used by BIND's daemons and
+ clients.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
+
 Package: isc-dhcp-common
 Priority: important
 Section: net
@@ -520,12 +664,12 @@ Installed-Size: 75
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: lsb
-Version: 4.0-0ubuntu20.2
+Version: 4.0-0ubuntu20.3
 Replaces: lsb (<< 2.0-6), lsb-core (<< 2.0-6)
 Depends: sed, ncurses-bin
 Conflicts: lsb (<< 2.0-6), lsb-core (<< 2.0-6)
 Filename: pool/main/l/lsb/lsb-base_4.0-0ubuntu20_all.deb
-Size: 10366
+Size: 10462
 MD5sum: 45308e266f438916f3614b8fd560df61
 Description: Linux Standard Base 4.0 init script functionality
  The Linux Standard Base (http://www.linuxbase.org/) is a standard
@@ -609,6 +753,54 @@ Description: client support for WPA and WPA2 (IEEE 802.11i)
 Original-Maintainer: Debian/Ubuntu wpasupplicant Maintainers <pkg-wpa-devel@lists.alioth.debian.org>
 Homepage: http://w1.fi/wpa_supplicant/
 
+Package: libgeoip1
+Priority: optional
+Section: libs
+Installed-Size: 276
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: geoip
+Version: 1.4.8+dfsg-2
+Depends: libc6 (>= 2.8), zlib1g (>= 1:1.1.4)
+Recommends: geoip-database
+Suggests: geoip-bin
+Size: 111904
+Description: non-DNS IP-to-country resolver library
+ GeoIP is a C library that enables the user to find the country that any
+ IP address or hostname originates from. It uses a file based database.
+ .
+ This database simply contains IP blocks as keys, and countries as values and
+ it should be more complete and accurate than using reverse DNS lookups.
+ .
+ This package contains the shared library.
+Original-Maintainer: Patrick Matthäi <pmatthaei@debian.org>
+Homepage: http://www.maxmind.com/
+
+Package: dnsutils
+Priority: standard
+Section: net
+Installed-Size: 281
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: bind9
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.7
+Replaces: bind, bind9 (<< 1:9.1.0-3)
+Depends: libbind9-80 (= 1:9.8.1.dfsg.P1-4ubuntu0.7), libc6 (>= 2.15-0ubuntu8), libdns81 (= 1:9.8.1.dfsg.P1-4ubuntu0.7), libisc83 (= 1:9.8.1.dfsg.P1-4ubuntu0.7), libisccfg82 (= 1:9.8.1.dfsg.P1-4ubuntu0.7), libkrb5-3 (>= 1.6.dfsg.2), liblwres80 (= 1:9.8.1.dfsg.P1-4ubuntu0.7), bind9-host | host
+Suggests: rblcheck
+Conflicts: netstd (<< 2.00)
+Size: 131926
+Description: Clients provided with BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ This package delivers various client programs related to DNS that are
+ derived from the BIND source tree.
+ .
+  - dig - query the DNS in various ways
+  - nslookup - the older way to do it
+  - nsupdate - perform dynamic updates (See RFC2136)
+Original-Maintainer: LaMont Jones <lamont@debian.org>
+
 Package: libgssapi-krb5-2
 Multi-Arch: same
 Priority: standard
@@ -639,30 +831,29 @@ Original-Maintainer: Sam Hartman <hartmans@debian.org>
 
 Package: python-minimal
 Essential: yes
+Multi-Arch: allowed
 Priority: required
 Section: python
 Installed-Size: 159
-Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Architecture: armhf
 Source: python-defaults
-Version: 2.7.3-0ubuntu2
+Version: 2.7.3-0ubuntu2.2
 Replaces: python (<= 2.4-1), python2.7 (<< 2.7.3)
 Depends: python2.7-minimal (>= 2.7.3), dpkg (>= 1.13.20)
 Recommends: python
 Breaks: idle (<< 2.6), python (<= 2.4-1), python-all (<< 2.6), python-all-dbg (<< 2.6), python-all-dev (<< 2.6), python-dbg (<< 2.6), python-dev (<< 2.6), python-examples (<< 2.6), python-support (<< 1.0.10ubuntu2), python2.5-minimal (<< 2.5.5-7), python2.6-minimal (<< 2.6.5~rc2-2), python3.1-minimal (<< 3.1.2~rc1-2)
 Conflicts: python-central (<< 0.5.5)
 Filename: pool/main/p/python-defaults/python-minimal_2.7.3-0ubuntu2_armhf.deb
-Size: 29182
+Size: 29062
 MD5sum: 70b69219cf20ead4db2db96fcbc65eb9
 Description: minimal subset of the Python language (default version)
-Original-Maintainer: Matthias Klose <doko@debian.org>
-SHA1: 23655e478ffd509a0b8eb9ff44717c9bd5197623
-SHA256: 878eb720e55c301e45214fdc1e57b4db626ef820a55490c8b313f58e347fd76b
+ This package contains the interpreter and some essential modules.  It's used
+ in the boot process for some basic tasks.
+ See /usr/share/doc/python2.7-minimal/README.Debian for a list of the modules
+ contained in this package.
 Homepage: http://www.python.org/
-Description-md5: 200bc6d6d83361369f54f0e99818ec74
-Task: minimal
+Original-Maintainer: Matthias Klose <doko@debian.org>
 
 Package: ncurses-base
 Essential: yes
@@ -850,15 +1041,15 @@ Package: lsb-release
 Multi-Arch: foreign
 Priority: extra
 Section: misc
-Installed-Size: 111
+Installed-Size: 112
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: lsb
-Version: 4.0-0ubuntu20.2
+Version: 4.0-0ubuntu20.3
 Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8)
 Recommends: apt
 Suggests: lsb
-Size: 10810
+Size: 10980
 Description: Linux Standard Base version reporting utility
  The Linux Standard Base (http://www.linuxbase.org/) is a standard
  core system that third-party applications written for Linux can
@@ -935,10 +1126,10 @@ Section: utils
 Installed-Size: 766
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
-Version: 1.0.1-4ubuntu5.9
+Version: 1.0.1-4ubuntu5.10
 Depends: libc6 (>= 2.15-0ubuntu8), libssl1.0.0 (>= 1.0.1)
 Suggests: ca-certificates
-Size: 519014
+Size: 518414
 Description: Secure Socket Layer (SSL) binary and related cryptographic tools
  This package contains the openssl binary and related tools.
  .
@@ -952,6 +1143,30 @@ Description: Secure Socket Layer (SSL) binary and related cryptographic tools
   -  SSL/TLS client and server tests;
   -  Handling of S/MIME signed or encrypted mail.
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+
+Package: python-gi
+Priority: optional
+Section: python
+Installed-Size: 720
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: pygobject
+Version: 3.2.2-1~precise
+Replaces: python-gobject (<< 3.0.2-4)
+Provides: python2.7-gi
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), libc6 (>= 2.15-0ubuntu8), libgirepository-1.0-1 (>= 1.29.0), libglib2.0-0 (>= 2.31.8), gir1.2-glib-2.0 (>= 1.31.0)
+Suggests: python-gi-cairo
+Breaks: python-gobject (<< 3.0.2-4), python-nautilus (<= 1.1-1)
+Size: 192984
+Description: Python 2.x bindings for gobject-introspection libraries
+ GObject is an abstraction layer that allows programming with an object
+ paradigm that is compatible with many languages. It is a part of Glib,
+ the core library used to build GTK+ and GNOME.
+ .
+ This package contains the Python 2.x binding generator for libraries that
+ support gobject-introspection, i. e. which ship a gir1.2-<name>-<version>
+ package. With these packages, the libraries can be used from Python.
+Original-Maintainer: Josselin Mouette <joss@debian.org>
 
 Package: ncurses-bin
 Essential: yes
@@ -1035,14 +1250,14 @@ Section: admin
 Installed-Size: 2938
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
-Version: 0.8.16~exp12ubuntu10.10
+Version: 0.8.16~exp12ubuntu10.12
 Replaces: manpages-pl (<< 20060617-3~)
-Depends: ubuntu-keyring, libapt-pkg4.12 (>= 0.8.16~exp12ubuntu10.10), libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.6), gnupg
+Depends: ubuntu-keyring, libapt-pkg4.12 (>= 0.8.16~exp12ubuntu10.12), libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.6), gnupg
 Pre-Depends: dpkg (>= 1.15.7.2)
 Suggests: aptitude | synaptic | wajig, dpkg-dev, apt-doc, bzip2, lzma, python-apt
 Conflicts: python-apt (<< 0.7.93.2~)
 Filename: pool/main/a/apt/apt_0.8.16~exp12ubuntu10_armhf.deb
-Size: 1065222
+Size: 1053748
 MD5sum: 1ee489dec71c9f470204ad7dda1ff8a3
 Description: commandline package manager
  This package provides commandline tools for searching and
@@ -1059,6 +1274,117 @@ Description: commandline package manager
   * apt-config as an interface to the configuration settings
   * apt-key as an interface to manage authentication keys
 Original-Maintainer: APT Development Team <deity@lists.debian.org>
+
+Package: bluez
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Installed-Size: 1597
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.98-2ubuntu7
+Replaces: bluez-audio (<= 3.36-3), bluez-input, bluez-network, bluez-serial, bluez-utils (<= 3.36-3), udev (<< 170-1)
+Depends: libc6 (>= 2.15), libcap-ng0, libdbus-1-3 (>= 1.1.1), libglib2.0-0 (>= 2.28.0), libreadline6 (>= 6.0), libudev0 (>= 147), libusb-0.1-4 (>= 2:0.1.12), upstart-job, module-init-tools, udev (>= 170-1), lsb-base, dbus, python-dbus
+Pre-Depends: dpkg (>= 1.15.7.2)
+Breaks: udev (<< 170-1)
+Conflicts: bluez-audio (<= 3.36-3), bluez-utils (<= 3.36-3)
+Size: 800318
+Description: Bluetooth tools and daemons
+ This package contains tools and system daemons for using Bluetooth devices.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+Homepage: http://www.bluez.org
+Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+
+Package: sgml-base
+Priority: optional
+Section: text
+Installed-Size: 148
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 1.26+nmu1ubuntu1
+Suggests: sgml-base-doc
+Conflicts: sgml-data (<= 0.02), sgmltools-2 (<= 2.0.2-4)
+Size: 8360
+Description: SGML infrastructure and SGML catalog file support
+ This package creates the SGML infrastructure directories and provides
+ SGML catalog file support in compliance with the current Debian SGML
+ Policy draft:
+ .
+   * infrastructure directories:
+      - /etc/sgml
+      - /usr/share/sgml/{declaration,dtd,entities,misc,stylesheet}
+      - /usr/share/local/sgml/{declaration,dtd,entities,misc,stylesheet}
+ .
+   * update-catalog(8): tool for maintaining the root SGML catalog
+     file and the package SGML catalog files in the '/etc/sgml' directory
+Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+
+Package: libisc83
+Priority: standard
+Section: libs
+Installed-Size: 272
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: bind9
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.7
+Replaces: libbind0
+Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libxml2 (>= 2.7.4)
+Conflicts: libbind0, libbind9-41
+Size: 137074
+Description: ISC Shared Library used by BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ This package delivers the libisc shared library used by BIND's daemons and
+ clients.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
+
+Package: libdbus-glib-1-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Installed-Size: 164
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: dbus-glib
+Version: 0.98-1ubuntu1.1
+Depends: libc6 (>= 2.15-0ubuntu8), libdbus-1-3 (>= 1.2.16), libglib2.0-0 (>= 2.31.8)
+Pre-Depends: multiarch-support
+Size: 58168
+Description: simple interprocess messaging system (GLib-based shared library)
+ D-Bus is a message bus, used for sending messages between applications.
+ Conceptually, it fits somewhere in between raw sockets and CORBA in
+ terms of complexity.
+ .
+ This package provides the GLib-based shared library for applications using the
+ GLib interface to D-Bus.
+ .
+ See the dbus description for more information about D-Bus in general.
+Homepage: http://www.freedesktop.org/wiki/Software/DBusBindings
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+
+Package: libisccfg82
+Priority: optional
+Section: libs
+Installed-Size: 117
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: bind9
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.7
+Replaces: libbind0
+Depends: libc6 (>= 2.15-0ubuntu8), libdns81, libisc83, libisccc80
+Conflicts: libbind0, libbind9-41
+Size: 34010
+Description: Config File Handling Library used by BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ This package delivers the libisccfg shared library used by BIND's daemons
+ and clients to read and write ISC-style configuration files like named.conf
+ and rndc.conf.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
 
 Package: libk5crypto3
 Multi-Arch: same
@@ -1129,11 +1455,11 @@ Installed-Size: 88
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: libdrm
-Version: 2.4.43-0ubuntu0.0.1
+Version: 2.4.43-0ubuntu0.0.2
 Depends: libc6 (>= 2.15-0ubuntu8)
 Pre-Depends: multiarch-support
 Filename: pool/main/libd/libdrm/libdrm2_2.4.32-1ubuntu1_armhf.deb
-Size: 21796
+Size: 21820
 MD5sum: 6a70abbc5ec030bdb428e1f188e3d4df
 Description: Userspace interface to kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
@@ -1153,12 +1479,12 @@ Installed-Size: 78
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: libdrm
-Version: 2.4.43-0ubuntu0.0.1
+Version: 2.4.43-0ubuntu0.0.2
 Depends: libc6 (>= 2.15-0ubuntu8), libdrm2 (>= 2.4.3)
 Pre-Depends: multiarch-support
 Conflicts: libdrm-nouveau1
 Filename: pool/main/libd/libdrm/libdrm-nouveau1a_2.4.32-1ubuntu1_armhf.deb
-Size: 11428
+Size: 11466
 MD5sum: 8fa96f067c87e1791a341aab646b4cde
 Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
  This library implements the userspace interface to the nouveau-specific kernel
@@ -1241,15 +1567,15 @@ Package: libudev0
 Multi-Arch: same
 Priority: important
 Section: admin
-Installed-Size: 187
+Installed-Size: 188
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: udev
-Version: 175-0ubuntu9.3
+Version: 175-0ubuntu9.4
 Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0)
 Pre-Depends: multiarch-support
 Filename: pool/main/u/udev/libudev0_175-0ubuntu9_armhf.deb
-Size: 25868
+Size: 25432
 MD5sum: 26fcd1552e5cd37e554a95cf59a7ec8a
 Description: udev library
  libudev provides a set of functions for accessing the udev database
@@ -1257,20 +1583,21 @@ Description: udev library
 Homepage: http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
 
 Package: python
+Multi-Arch: allowed
 Priority: important
 Section: python
 Installed-Size: 658
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: python-defaults
-Version: 2.7.3-0ubuntu2
+Version: 2.7.3-0ubuntu2.2
 Replaces: python-dev (<< 2.6.5-2)
 Provides: python-ctypes, python-email, python-importlib, python-profiler, python-wsgiref
-Depends: python2.7 (>= 2.7.3), python-minimal (= 2.7.3-0ubuntu2)
-Suggests: python-doc (= 2.7.3-0ubuntu2), python-tk (= 2.7.3-0ubuntu2)
+Depends: python2.7 (>= 2.7.3), python-minimal (= 2.7.3-0ubuntu2.2)
+Suggests: python-doc (= 2.7.3-0ubuntu2.2), python-tk (= 2.7.3-0ubuntu2.2)
 Breaks: python-bz2 (<< 1.1-8), python-csv (<< 1.0-4), python-email (<< 2.5.5-3), update-manager-core (<< 0.200.5-2)
 Conflicts: python-central (<< 0.5.5)
-Size: 165718
+Size: 168194
 Description: interactive high-level object-oriented language (default version)
  Python, the high-level, interactive object oriented language,
  includes an extensive class library with lots of goodies for
@@ -1313,10 +1640,10 @@ Installed-Size: 103
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: libxext
-Version: 2:1.3.0-3build1
-Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.4.99.1)
+Version: 2:1.3.0-3ubuntu0.1
+Depends: libc6 (>= 2.15-0ubuntu8), libx11-6 (>= 2:1.4.99.1)
 Pre-Depends: multiarch-support
-Size: 26412
+Size: 26918
 Description: X11 miscellaneous extension library
  libXext provides an X Window System client interface to several extensions to
  the X protocol.
@@ -1388,6 +1715,37 @@ Description: filesystem mounting tool
  ready, or when network interfaces come up, checking the filesystems
  first.
 
+Package: dbus
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Installed-Size: 631
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1.4.18-1ubuntu1.4
+Depends: libc6 (>= 2.15-0ubuntu8), libdbus-1-3 (>= 1.0.2), libexpat1 (>= 1.95.8), libselinux1 (>= 1.32), upstart-job, adduser, lsb-base (>= 3.2-14), upstart (>= 0.6.3-6), netbase (>= 4.45ubuntu3)
+Suggests: dbus-x11
+Size: 284978
+Description: simple interprocess messaging system (daemon and utilities)
+ D-Bus is a message bus, used for sending messages between applications.
+ Conceptually, it fits somewhere in between raw sockets and CORBA in
+ terms of complexity.
+ .
+ D-Bus supports broadcast messages, asynchronous messages (thus
+ decreasing latency), authentication, and more. It is designed to be
+ low-overhead; messages are sent using a binary protocol, not using
+ XML. D-Bus also supports a method call mapping for its messages, but
+ it is not required; this makes using the system quite simple.
+ .
+ It comes with several bindings, including GLib, Python, Qt and Java.
+ .
+ This package contains the D-Bus daemon and related utilities.
+ .
+ The client-side library can be found in the libdbus-1-3 package, as it is no
+ longer contained in this package.
+Homepage: http://dbus.freedesktop.org/
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+
 Package: libapt-pkg4.12
 Multi-Arch: same
 Priority: important
@@ -1396,11 +1754,11 @@ Installed-Size: 2614
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: apt
-Version: 0.8.16~exp12ubuntu10.10
+Version: 0.8.16~exp12ubuntu10.12
 Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.6), zlib1g (>= 1:1.2.3.3.dfsg)
 Pre-Depends: multiarch-support
 Filename: pool/main/a/apt/libapt-pkg4.12_0.8.16~exp12ubuntu10_armhf.deb
-Size: 872534
+Size: 862802
 MD5sum: 76b938e39d2e687198a186125d5569fa
 Description: package managment runtime library
  This library provides the common functionality for searching and
@@ -1520,11 +1878,11 @@ Installed-Size: 94
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: libdrm
-Version: 2.4.43-0ubuntu0.0.1
+Version: 2.4.43-0ubuntu0.0.2
 Depends: libc6 (>= 2.15-0ubuntu8), libdrm2 (>= 2.4.38)
 Pre-Depends: multiarch-support
 Filename: pool/main/libd/libdrm/libdrm-radeon1_2.4.32-1ubuntu1_armhf.deb
-Size: 20258
+Size: 20278
 MD5sum: b81f5b4b961cb0114fc7b9f4d20b40aa
 Description: Userspace interface to radeon-specific kernel DRM services -- runtime
  This library implements the userspace interface to the radeon-specific kernel
@@ -1633,10 +1991,10 @@ Installed-Size: 797
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: apt
-Version: 0.8.16~exp12ubuntu10.10
-Depends: libapt-pkg4.12 (>= 0.8.16~exp12ubuntu10.10), libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.4.0)
+Version: 0.8.16~exp12ubuntu10.12
+Depends: libapt-pkg4.12 (>= 0.8.16~exp12ubuntu10.12), libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.4.0)
 Pre-Depends: multiarch-support
-Size: 95836
+Size: 96764
 Description: deb package format runtime library
  This library provides methods to query and extract information
  from deb packages. This includes the control data and the package
@@ -1676,11 +2034,11 @@ Installed-Size: 126
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: libxcb
-Version: 1.8.1-1ubuntu0.1
+Version: 1.8.1-1ubuntu0.2
 Depends: libc6 (>= 2.15-0ubuntu8), libxau6, libxdmcp6
 Pre-Depends: multiarch-support
 Breaks: libxcb-xlib0
-Size: 35542
+Size: 35686
 Description: X C Binding
  This package contains the library files needed to run software using libxcb,
  the X C Binding.
@@ -1720,19 +2078,43 @@ SHA256: bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0
 Description-md5: cd9b6b54ca8243d6f6ef9d4c4870927f
 Task: minimal
 
-Package: python2.7
+Package: python-dbus-dev
 Priority: optional
 Section: python
-Installed-Size: 8193
+Installed-Size: 62
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Source: dbus-python
+Version: 1.0.0-1ubuntu1
+Replaces: python-dbus (<< 1.0), python-dbus-common (<< 1.0)
+Breaks: python-dbus (<< 1.0), python-dbus-common (<< 1.0)
+Size: 5556
+Description: main loop integration development files for python-dbus
+ D-Bus is a message bus, used for sending messages between applications.
+ Conceptually, it fits somewhere in between raw sockets and CORBA in
+ terms of complexity.
+ .
+ This package provides development files required to compile main-loop
+ integration modules for python-dbus, such as dbus.mainloop.qt provided
+ by PyQt. It is Python-version-independent: you must also depend on either
+ python-dbus or python3-dbus, if required.
+Homepage: http://www.freedesktop.org/wiki/Software/DBusBindings#Python
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+
+Package: python2.7
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Installed-Size: 8190
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
-Version: 2.7.3-0ubuntu3.1
+Version: 2.7.3-0ubuntu3.2
 Replaces: python-profiler (<= 2.7.1-2)
 Provides: python-argparse, python2.7-argparse, python2.7-celementtree, python2.7-cjkcodecs, python2.7-ctypes, python2.7-elementtree, python2.7-profiler, python2.7-wsgiref
-Depends: python2.7-minimal (= 2.7.3-0ubuntu3.1), mime-support, libbz2-1.0, libc6 (>= 2.15-0ubuntu8), libdb5.1, libexpat1 (>= 1.95.8), libgcc1 (>= 1:4.4.0), libncursesw5 (>= 5.6+20070908), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libtinfo5
+Depends: python2.7-minimal (= 2.7.3-0ubuntu3.2), mime-support, libbz2-1.0, libc6 (>= 2.15-0ubuntu8), libdb5.1, libexpat1 (>= 1.95.8), libgcc1 (>= 1:4.4.0), libncursesw5 (>= 5.6+20070908), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libtinfo5
 Suggests: python2.7-doc, binutils
 Conflicts: python-profiler (<= 2.7.1-2)
-Size: 2584794
+Size: 2579466
 Description: Interactive high-level object-oriented language (version 2.7)
  Version 2.7 of the high-level, interactive object oriented language,
  includes an extensive class library with lots of goodies for
@@ -1785,6 +2167,75 @@ SHA256: 3895831a41b235b7e66538a6c6c22d95ca55a9df8e8c23554060a49ed420dd70
 Description-md5: c02e596a4e5bef99d28f7ec64ab27758
 Task: minimal
 
+Package: libgirepository-1.0-1
+Priority: optional
+Section: libs
+Installed-Size: 183
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: gobject-introspection
+Version: 1.32.0-1
+Replaces: libgirepository1.0-1
+Provides: libgirepository1.0-1
+Depends: libc6 (>= 2.4), libffi6 (>= 3.0.4), libgcc1 (>= 1:4.4.0), libglib2.0-0 (>= 2.31.8)
+Conflicts: libgirepository1.0-1
+Size: 86022
+Description: Library for handling GObject introspection data (runtime library)
+ GObject Introspection is a project for providing machine readable
+ introspection data of the API of C libraries. This introspection
+ data can be used in several different use cases, for example
+ automatic code generation for bindings, API verification and documentation
+ generation.
+ .
+ GObject Introspection contains tools to generate and handle the
+ introspection data.
+ .
+ This package contains a C library for handling the introspection data.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Homepage: http://live.gnome.org/GObjectIntrospection
+
+Package: libasound2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Installed-Size: 971
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: alsa-lib
+Version: 1.0.25-1ubuntu10.2
+Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0)
+Pre-Depends: multiarch-support, dpkg (>= 1.15.7.2)
+Suggests: libasound2-plugins (>= 1.0.18), libasound2-python
+Breaks: bluez-alsa (<= 4.94-2), libasound2-plugin-equal (<= 0.6-1), libasound2-plugins (<< 1.0.24)
+Size: 354620
+Description: shared library for ALSA applications
+ This package contains the ALSA library and its standard plugins, as well
+ as the required configuration files.
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+Homepage: http://www.alsa-project.org/
+Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+
+Package: libbluetooth3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Installed-Size: 150
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: bluez
+Version: 4.98-2ubuntu7
+Replaces: libsdp2 (<= 1.5-2)
+Depends: libc6 (>= 2.15)
+Pre-Depends: multiarch-support
+Conflicts: libsdp2 (<= 1.5-2)
+Size: 52932
+Description: Library to use the BlueZ Linux Bluetooth stack
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+Homepage: http://www.bluez.org
+Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+
 Package: base-files
 Essential: yes
 Priority: required
@@ -1792,13 +2243,13 @@ Section: admin
 Installed-Size: 419
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
-Version: 6.5ubuntu6.5
+Version: 6.5ubuntu6.6
 Replaces: base, dpkg (<= 1.15.0), lsb-release (<< 3.0-8), miscutils
 Provides: base
 Pre-Depends: awk
 Breaks: initscripts (<< 2.88dsf-13.3)
 Filename: pool/main/b/base-files/base-files_6.5ubuntu6_armhf.deb
-Size: 62166
+Size: 67848
 MD5sum: d8df46b133ee9eb6a66ecbed1b0de784
 Description: Debian base system miscellaneous files
  This package contains the basic filesystem hierarchy of a Debian system, and
@@ -2122,10 +2573,10 @@ Installed-Size: 114
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: armhf
 Source: initramfs-tools
-Version: 0.99ubuntu13.1
+Version: 0.99ubuntu13.2
 Depends: libc6 (>= 2.15-0ubuntu8), libudev0 (>= 147)
 Filename: pool/main/i/initramfs-tools/initramfs-tools-bin_0.99ubuntu13_armhf.deb
-Size: 9446
+Size: 9312
 MD5sum: ba55d9e53df8e40764028f9409188ced
 Description: binaries used by initramfs-tools
  This package contains binaries used inside the initramfs images generated
@@ -2203,6 +2654,26 @@ Homepage: http://savannah.nongnu.org/projects/attr/
 Description-md5: 828e462109496dfbca870108ebcb31fc
 Task: minimal
 
+Package: liblwres80
+Priority: standard
+Section: libs
+Installed-Size: 96
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: bind9
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.7
+Replaces: libbind0
+Depends: libc6 (>= 2.15-0ubuntu8)
+Conflicts: libbind0
+Size: 32492
+Description: Lightweight Resolver Library used by BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ This package delivers the liblwres shared library used by BIND's daemons
+ and clients.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
+
 Package: krb5-locales
 Multi-Arch: foreign
 Priority: standard
@@ -2273,20 +2744,21 @@ Original-Maintainer: Debian Libidn Team <help-libidn@gnu.org>
 Homepage: http://www.gnu.org/software/libidn/
 
 Package: python2.7-minimal
+Multi-Arch: allowed
 Priority: optional
 Section: python
 Installed-Size: 4649
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: python2.7
-Version: 2.7.3-0ubuntu3.1
+Version: 2.7.3-0ubuntu3.2
 Replaces: python2.7 (<< 2.7.1~rc1-2~)
 Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.1.1), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.0), python-minimal (>= 2.6.6-3+squeeze1)
 Recommends: python2.7
 Suggests: binfmt-support
 Conflicts: binfmt-support (<< 1.1.2)
 Filename: pool/main/p/python2.7/python2.7-minimal_2.7.3-0ubuntu3_armhf.deb
-Size: 1563516
+Size: 1562172
 MD5sum: baccefce16d5374ffe2fad30f67005ee
 Description: Minimal subset of the Python language (version 2.7)
  This package contains the interpreter and some essential modules.  It can
@@ -2442,6 +2914,44 @@ SHA256: 0b49d5f93ae81065fdf64aeb3c9e4962564e14ec72755c7c7aa7b3579d1dc874
 Description-md5: aad0cc52ee72b2469af5552851e49f03
 Task: minimal
 
+Package: bind9-host
+Priority: standard
+Section: net
+Installed-Size: 139
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: bind9
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.7
+Replaces: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
+Provides: host
+Depends: libbind9-80 (= 1:9.8.1.dfsg.P1-4ubuntu0.7), libc6 (>= 2.15-0ubuntu8), libdns81 (= 1:9.8.1.dfsg.P1-4ubuntu0.7), libisc83 (= 1:9.8.1.dfsg.P1-4ubuntu0.7), libisccfg82 (= 1:9.8.1.dfsg.P1-4ubuntu0.7), liblwres80 (= 1:9.8.1.dfsg.P1-4ubuntu0.7)
+Conflicts: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
+Size: 49734
+Description: Version of 'host' bundled with BIND 9.X
+ This package provides the 'host' program in the form that is bundled with
+ the BIND 9.X sources.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
+
+Package: libaprutil1
+Priority: optional
+Section: libs
+Installed-Size: 155
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: apr-util
+Version: 1.3.12+dfsg-3
+Depends: libapr1 (>= 1.2.7), libc6 (>= 2.4), libdb5.1, libexpat1 (>= 1.95.8)
+Size: 60676
+Description: Apache Portable Runtime Utility Library
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Homepage: http://apr.apache.org/
+
 Package: libcomerr2
 Multi-Arch: same
 Priority: required
@@ -2468,6 +2978,23 @@ Homepage: http://e2fsprogs.sourceforge.net
 Description-md5: 5611f795c9947cfb9a2980a01506a1b9
 Task: minimal
 
+Package: liblog4cxx10
+Priority: optional
+Section: libs
+Installed-Size: 1271
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: log4cxx
+Version: 0.10.0-1.2ubuntu2
+Depends: libapr1 (>= 1.2.7), libaprutil1 (>= 1.2.7+dfsg), libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.4.0)
+Size: 453838
+Description: A logging library for C++
+ Log4cxx is the C++ port of log4j, a logging framework for JAVA.
+ Log4cxx attempts to mimic log4j usage as much as the language will
+ allow and to be compatible with log4j configuration and output formats.
+Homepage: http://logging.apache.org/log4cxx/index.html
+Original-Maintainer: Matthew Vernon <sunergos@vernshome.net>
+
 Package: mawk
 Multi-Arch: foreign
 Priority: required
@@ -2490,6 +3017,32 @@ SHA256: 12e1076819c5a7a90345bf18f4665803dbb0b2aa60c24d87a2a862556124f794
 Description-md5: e02f3de1fa8a56e3f324f082c0c2e41f
 Task: minimal
 
+Package: groff-base
+Multi-Arch: foreign
+Priority: important
+Section: text
+Installed-Size: 2278
+Maintainer: Colin Watson <cjwatson@debian.org>
+Architecture: armhf
+Source: groff
+Version: 1.21-7
+Replaces: groff (<< 1.20.1-6), jgroff (<< 1.17-1)
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.4.0)
+Suggests: groff
+Breaks: groff (<< 1.17-1), jgroff (<< 1.17-1), pmake (<< 1.45-7), troffcvt (<< 1.04-14)
+Size: 920934
+Description: GNU troff text-formatting system (base system components)
+ This package contains the traditional UN*X text formatting tools
+ troff, nroff, tbl, eqn, and pic. These utilities, together with the
+ man-db package, are essential for displaying the on-line manual pages.
+ .
+ groff-base is a stripped-down package containing the necessary components
+ to read manual pages in ASCII, Latin-1, and UTF-8, plus the PostScript
+ device (groff's default). Users who want a full groff installation, with
+ the standard set of devices, fonts, macros, and documentation, should
+ install the groff package.
+Homepage: http://groff.ffii.org/
+
 Package: gnupg
 Multi-Arch: foreign
 Priority: important
@@ -2497,11 +3050,11 @@ Section: utils
 Installed-Size: 1516
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
-Version: 1.4.11-3ubuntu2.2
+Version: 1.4.11-3ubuntu2.3
 Depends: libbz2-1.0, libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libreadline6 (>= 6.0), libusb-0.1-4 (>= 2:0.1.12), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info, gpgv
 Suggests: gnupg-curl, gnupg-doc, xloadimage | imagemagick | eog, libpcsclite1
 Filename: pool/main/g/gnupg/gnupg_1.4.11-3ubuntu2_armhf.deb
-Size: 721684
+Size: 721648
 MD5sum: be056ecc8c01fec2d98d73f2002121d0
 Description: GNU privacy guard - a free PGP replacement
  GnuPG is GNU's tool for secure communication and data storage.
@@ -2718,6 +3271,25 @@ Description: event-based init daemon
  shutdown and supervising them while the system is running.
 Homepage: http://upstart.ubuntu.com/
 
+Package: bluez-hcidump
+Priority: extra
+Section: admin
+Installed-Size: 254
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 2.2-1
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0)
+Size: 114108
+Description: Analyses Bluetooth HCI packets
+ The hcidump utility allows the monitoring of Bluetooth activity.
+ It provides a disassembly of the Bluetooth traffic and can display
+ packets from higher level protocols such as RFCOMM, SDP and BNEP.
+ .
+ hcidump is part of the BlueZ Bluetooth Linux project.  For more information
+ see http://www.bluez.org .
+Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Homepage: http://www.bluez.org
+
 Package: ureadahead
 Priority: required
 Section: admin
@@ -2741,6 +3313,24 @@ Description: Read required files in advance
  .
  ureadahead requires a kernel patch included in the Ubuntu kernel.
 
+Package: libpipeline1
+Multi-Arch: same
+Priority: important
+Section: libs
+Installed-Size: 67
+Maintainer: Colin Watson <cjwatson@debian.org>
+Architecture: armhf
+Source: libpipeline
+Version: 1.2.1-1
+Depends: libc6 (>= 2.15)
+Pre-Depends: multiarch-support
+Size: 20768
+Description: pipeline manipulation library
+ This is a C library for setting up and running pipelines of processes,
+ without needing to involve shell command-line parsing which is often
+ error-prone and insecure.
+Homepage: http://libpipeline.nongnu.org/
+
 Package: passwd
 Multi-Arch: foreign
 Priority: required
@@ -2762,6 +3352,31 @@ Description: change and administer password and group data
  Shadow passwords are supported.  See /usr/share/doc/passwd/README.Debian
 Homepage: http://pkg-shadow.alioth.debian.org/
 Original-Maintainer: Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>
+
+Package: bsdmainutils
+Multi-Arch: foreign
+Priority: important
+Section: utils
+Installed-Size: 491
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 8.2.3ubuntu1
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libtinfo5, bsdutils (>= 3.0-0), debianutils (>= 1.8)
+Suggests: cpp, wamerican | wordlist, whois, vacation
+Breaks: bsdutils (<< 1:2.13-11)
+Size: 193738
+Description: collection of more utilities from FreeBSD
+ This package contains lots of small programs many people expect to find when
+ they use a BSD-style Unix system.
+ .
+ It provides banner (as printerbanner), calendar, col, colcrt, colrm, column,
+ from (as bsd-from), hexdump (or hd), look, lorder, ncal (or cal), ul, and
+ write (as bsd-write).
+ .
+ This package used to contain whois and vacation, which are now distributed in
+ their own packages. Also here was tsort, which is now in the "coreutils"
+ package.
+Original-Maintainer: Debian Bsdmainutils Team <pkg-bsdmainutils@teams.debian.net>
 
 Package: hostname
 Essential: yes
@@ -2857,6 +3472,27 @@ SHA256: 5ed0add2abaed44f71aefc91bb7a8903fa9f9ef9496e2049fc0c64c5d37c37f2
 Homepage: http://pam.sourceforge.net/
 Description-md5: bc15ddbf92ee7965a8588141c54bb5a1
 Task: minimal
+
+Package: geoip-database
+Priority: optional
+Section: net
+Installed-Size: 6881
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 20111220-1
+Recommends: libgeoip1
+Breaks: libgeoip1 (<< 1.4.5.dfsg)
+Size: 3459648
+Description: IP lookup command line tools that use the GeoIP library (country database)
+ GeoIP is a C library that enables the user to find the country that any
+ IP address or hostname originates from. It uses a file based database.
+ .
+ This database simply contains IP blocks as keys, and countries as values and
+ it should be more complete and accurate than using reverse DNS lookups.
+ .
+ This package contains the free GeoLiteCountry database.
+Original-Maintainer: Patrick Matthäi <pmatthaei@debian.org>
+Homepage: http://www.maxmind.com/
 
 Package: xauth
 Priority: optional
@@ -3067,9 +3703,9 @@ Section: otherosfs
 Installed-Size: 165
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
-Version: 3.0.12-1ubuntu1
-Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.4.0)
-Size: 73304
+Version: 3.0.12-1ubuntu1.1
+Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0)
+Size: 74882
 Description: utilities for making and checking MS-DOS FAT filesystems
  The dosfstools package includes the mkdosfs (aka mkfs.dos and mkfs.vfat) and
  dosfsck (aka fsck.msdos and fsck.vfat) utilities, which respectively make and
@@ -3088,10 +3724,10 @@ Installed-Size: 1125
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: libx11
-Version: 2:1.4.99.1-0ubuntu2
-Depends: libc6 (>= 2.15), libxcb1 (>= 1.2), libx11-data
+Version: 2:1.4.99.1-0ubuntu2.1
+Depends: libc6 (>= 2.15-0ubuntu8), libxcb1 (>= 1.2), libx11-data
 Pre-Depends: multiarch-support
-Size: 681116
+Size: 679106
 Description: X11 client-side library
  This package provides a client interface to the X Window System, otherwise
  known as 'Xlib'.  It provides a complete API for the basic functions of the
@@ -3398,6 +4034,30 @@ Description: GnuPG keys of the Ubuntu archive
  The Ubuntu project digitally signs its Release files. This package
  contains the archive keys used for that.
 
+Package: libev4
+Priority: extra
+Section: libs
+Installed-Size: 69
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: libev
+Version: 1:4.11-1
+Depends: libc6 (>= 2.9)
+Size: 23830
+Description: high-performance event loop library modelled after libevent
+ libev provides a full-featured and high-performance event loop that is
+ loosely modelled after libevent. It includes relative timers, absolute
+ timers with customized rescheduling, synchronous signals, process status
+ change events, event watchers dealing with the event loop itself, file
+ watchers, and even limited support for fork events. It uses a priority
+ queue to manage timers and uses arrays as fundamental data structure. It
+ has no artificial limitations on the number of watchers waiting for the
+ same event.
+ .
+ libev supports select, poll, epoll, kqueue, and inotify.
+Original-Maintainer: Jérémy Lal <kapouer@melix.org>
+Homepage: http://libev.schmorp.de/
+
 Package: dmsetup
 Priority: optional
 Section: admin
@@ -3442,6 +4102,56 @@ Description: ejects CDs and operates CD-Changers under Linux
  devices like digital cameras or portable music players.
 Original-Maintainer: Frank Lichtenheld <djpig@debian.org>
 Homepage: http://www.pobox.com/~tranter/eject.html
+
+Package: libcap-ng0
+Priority: optional
+Section: libs
+Installed-Size: 46
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: libcap-ng
+Version: 0.6.6-1ubuntu1
+Depends: libc6 (>= 2.4)
+Size: 9418
+Description: An alternate POSIX capabilities library
+ This library implements the user-space interfaces to the POSIX
+ 1003.1e capabilities available in Linux kernels.  These capabilities are
+ a partitioning of the all powerful root privilege into a set of distinct
+ privileges.
+ .
+ The libcap-ng library is intended to make programming with POSIX
+ capabilities much easier than the traditional libcap library.
+ .
+ This package contains header files and libraries for libcap-ng.
+Original-Maintainer: Pierre Chifflier <pollux@debian.org>
+Homepage: http://people.redhat.com/sgrubb/libcap-ng
+
+Package: gir1.2-glib-2.0
+Priority: optional
+Section: introspection
+Installed-Size: 575
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: gobject-introspection
+Version: 1.32.0-1
+Depends: libgirepository-1.0-1 (>= 1.31.20), libglib2.0-0 (>= 2.31.22)
+Breaks: gnome-shell (<< 3.0.2-6), python-gobject (<< 2.90)
+Conflicts: gir1.0-glib-2.0, gobject-introspection-glib-2.0
+Size: 156426
+Description: Introspection data for GLib, GObject, Gio and GModule
+ GObject Introspection is a project for providing machine readable
+ introspection data of the API of C libraries. This introspection
+ data can be used in several different use cases, for example
+ automatic code generation for bindings, API verification and documentation
+ generation.
+ .
+ GObject Introspection contains tools to generate and handle the
+ introspection data.
+ .
+ This package contains the introspection data for the GLib, GObject,
+ GModule and Gio libraries.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Homepage: http://live.gnome.org/GObjectIntrospection
 
 Package: busybox-initramfs
 Priority: optional
@@ -3515,6 +4225,28 @@ SHA256: 2d79ab5189c158674e5379860c5d8498921f6cddcf9f9f54f78d5eb95f1b63d4
 Homepage: http://www.bzip.org/
 Description-md5: e921dd6ddb4bb508e6f1b62169b85d70
 Task: minimal
+
+Package: gdbserver
+Priority: optional
+Section: devel
+Installed-Size: 271
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: gdb
+Version: 7.4-2012.04-0ubuntu2.1
+Replaces: gdb (<< 7.0.1-1)
+Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0)
+Size: 93422
+Description: The GNU Debugger (remote server)
+ GDB is a source-level debugger, capable of breaking programs at
+ any specific line, displaying variable values, and determining
+ where errors occurred. Currently, it works for C, C++, Fortran
+ Modula 2 and Java programs. A must-have for any serious
+ programmer.
+ .
+ This package contains gdbserver.  Install this to debug remotely
+ from another system where GDB is installed.
+Original-Maintainer: Daniel Jacobowitz <dan@debian.org>
 
 Package: libdrm-intel1
 Multi-Arch: same
@@ -3653,6 +4385,37 @@ Description: MIME files 'mime.types' & 'mailcap', and support programs
  files.
 Original-Maintainer: Brian White <bcwhite@pobox.com>
 
+Package: xml-core
+Priority: optional
+Section: text
+Installed-Size: 260
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.13
+Depends: sgml-base (>= 1.17), sed (>= 4.1.2-8)
+Suggests: debhelper (>= 4.1.75)
+Size: 23406
+Description: XML infrastructure and XML catalog file support
+ This package creates the XML infrastructure directories and provides
+ XML catalog file support in compliance with the current Debian XML
+ Policy draft:
+ .
+   * infrastructure directories:
+      - /etc/xml
+      - /usr/share/xml/{declaration,entities,misc,schema}
+      - /usr/local/share/xml/{declaration,entities,misc,schema}
+ .
+   * XML catalog schema: OASIS XML Catalog Committee Specification 1.0
+ .
+   * update-xmlcatalog(8): tool for maintaining the root XML catalog
+     file and the package XML catalog files in the '/etc/xml' directory
+     as well as local XML catalog files.
+ .
+   * dh_installxmlcatalogs(1): debhelper tool for installing local XML
+     catalog files and registering XML entities in package XML catalog
+     files and the root XML catalog file (requires debhelper package)
+Original-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+
 Package: sysvinit-utils
 Multi-Arch: foreign
 Priority: required
@@ -3776,6 +4539,26 @@ Description: small, friendly text editor inspired by Pico
 Original-Maintainer: Jordi Mallach <jordi@debian.org>
 Homepage: http://www.nano-editor.org/
 
+Package: libisccc80
+Priority: optional
+Section: libs
+Installed-Size: 72
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: bind9
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.7
+Replaces: libbind0
+Depends: libc6 (>= 2.15-0ubuntu8), libisc83
+Conflicts: libbind0, libbind9-41
+Size: 14222
+Description: Command Channel Library used by BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ This package delivers the libisccc shared library used by BIND's daemons
+ and clients, particularly rndc.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
+
 Package: libnih-dbus1
 Multi-Arch: same
 Priority: required
@@ -3806,9 +4589,9 @@ Installed-Size: 1525
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: libx11
-Version: 2:1.4.99.1-0ubuntu2
+Version: 2:1.4.99.1-0ubuntu2.1
 Breaks: libx11-6 (<< 2:1.4.1)
-Size: 168300
+Size: 174548
 Description: X11 client-side library
  This package provides the locale data files for libx11.
  .
@@ -4014,9 +4797,9 @@ Installed-Size: 455
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
 Source: apt
-Version: 0.8.16~exp12ubuntu10.10
-Depends: libapt-inst1.4 (>= 0.8.0), libapt-pkg4.12 (>= 0.8.16~exp12ubuntu10.10), libc6 (>= 2.15-0ubuntu8), libdb5.1, libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.4.0)
-Size: 171076
+Version: 0.8.16~exp12ubuntu10.12
+Depends: libapt-inst1.4 (>= 0.8.0), libapt-pkg4.12 (>= 0.8.16~exp12ubuntu10.12), libc6 (>= 2.15-0ubuntu8), libdb5.1, libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.4.0)
+Size: 170242
 Description: package managment related utility programs
  This package contains some less used commandline utilities related
  to package managment with APT.
@@ -4032,14 +4815,14 @@ Package: udev
 Multi-Arch: foreign
 Priority: important
 Section: admin
-Installed-Size: 839
+Installed-Size: 843
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
-Version: 175-0ubuntu9.3
+Version: 175-0ubuntu9.4
 Depends: libacl1 (>= 2.2.51-5), libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libglib2.0-0 (>= 2.16.0), libselinux1 (>= 1.32), upstart-job, libudev0 (>= 175), module-init-tools (>= 3.2.1-0ubuntu3), initramfs-tools (>= 0.92bubuntu63), procps, adduser, util-linux (>> 2.15~rc2), upstart (>= 1.4-0ubuntu6)
 Suggests: watershed
 Filename: pool/main/u/udev/udev_175-0ubuntu9_armhf.deb
-Size: 297294
+Size: 291414
 MD5sum: 2916622b633f0299a1b2f8cb8815cd9f
 Description: rule-based device node and kernel event manager
  udev is a collection of tools and a daemon to manage events received from
@@ -4052,6 +4835,26 @@ Description: rule-based device node and kernel event manager
  device node, creating additional symlinks or calling other tools and programs
  including those to load kernel modules and initialise the device.
 Homepage: http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
+
+Package: libdns81
+Priority: standard
+Section: libs
+Installed-Size: 1051
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: bind9
+Version: 1:9.8.1.dfsg.P1-4ubuntu0.7
+Replaces: libbind0
+Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), libgeoip1 (>= 1.4.8+dfsg), libgssapi-krb5-2 (>= 1.10+dfsg~), libisc83, libssl1.0.0 (>= 1.0.0)
+Conflicts: libbind0, libbind9-41
+Size: 608798
+Description: DNS Shared Library used by BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ This package delivers the libdns shared library used by BIND's daemons and
+ clients.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
 
 Package: bash
 Essential: yes
@@ -4140,13 +4943,13 @@ Section: admin
 Installed-Size: 860
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: armhf
-Version: 5.8.6-1ubuntu8.2
+Version: 5.8.6-1ubuntu8.4
 Provides: linux-kernel-log-daemon, system-log-daemon
 Depends: libc6 (>= 2.15-0ubuntu8), libgcc1 (>= 1:4.4.0), zlib1g (>= 1:1.1.4), upstart-job, lsb-base (>= 3.2-14), initscripts (>= 2.88dsf-13.3), adduser, ucf
 Recommends: logrotate
 Suggests: rsyslog-mysql | rsyslog-pgsql, rsyslog-doc, rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp, apparmor (>= 2.3)
 Conflicts: linux-kernel-log-daemon, system-log-daemon
-Size: 370080
+Size: 370054
 Description: reliable system and kernel logging daemon
  Rsyslog is a multi-threaded implementation of syslogd (a system utility
  providing support for message logging), with features that include:
@@ -4433,6 +5236,24 @@ Description: GNU readline and history libraries, common files
  The GNU history library provides a consistent user interface for
  recalling lines of previously typed input.
 Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libapr1
+Priority: optional
+Section: libs
+Installed-Size: 225
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: apr
+Version: 1.4.6-1
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libuuid1 (>= 2.16)
+Conflicts: libapr1.0
+Size: 76068
+Description: Apache Portable Runtime Library
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Homepage: http://apr.apache.org/
 
 Package: libwrap0
 Multi-Arch: same

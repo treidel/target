@@ -1,0 +1,45 @@
+This package was debianized by Edd Dumbill <ejad@debian.org> on
+Thu, 26 Sep 2002 19:03:27 +0100.
+
+It was downloaded from http://www.bluez.org
+
+Upstream Authors:
+
+Maxim Krasnyansky <maxk@qualcomm.com>
+	Original author.
+	Primary maintainer.
+
+Wayne Lee <waynelee@qualcomm.com>
+	RFCOMM parser.
+
+Ricky Yuen <ryuen@qualcomm.com>
+	SDP parser.
+
+Takashi Sasai <sasai@sm.sony.co.jp>
+	BNEP parser
+
+
+Copyright:
+
+HCIDump - HCI packet analyzer 
+Copyright (C) 2000-2002 Maxim Krasnyansky <maxk@qualcomm.com>
+Copyright (C) 2003-2007 Marcel Holtmann <marcel@holtmann.org>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 2 as
+published by the Free Software Foundation; version 2 dated June, 1991.
+
+On Debian GNU/Linux systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+IN NO EVENT SHALL THE COPYRIGHT HOLDER(S) AND AUTHOR(S) BE LIABLE FOR ANY CLAIM,
+OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER
+RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF
+CONTRACT,  NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+ALL LIABILITY, INCLUDING LIABILITY FOR INFRINGEMENT OF ANY PATENTS, COPYRIGHTS,
+TRADEMARKS OR OTHER RIGHTS, RELATING TO USE OF THIS SOFTWARE IS DISCLAIMED.

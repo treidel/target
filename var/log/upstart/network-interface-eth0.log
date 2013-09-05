@@ -1,0 +1,3 @@
+resolvconf: Error: /etc/resolv.conf isn't a symlink, not doing anything.
+ssh stop/waiting
+ssh start/running, process 483

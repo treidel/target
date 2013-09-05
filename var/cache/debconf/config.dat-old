@@ -277,11 +277,20 @@ Owners: libc6, libc6:armhf, libpam0g:armhf
 
 Name: libssl1.0.0/restart-failed
 Template: libssl1.0.0/restart-failed
-Owners: libssl1.0.0:armhf
+Owners: libssl1.0.0, libssl1.0.0:armhf
 
 Name: libssl1.0.0/restart-services
 Template: libssl1.0.0/restart-services
-Owners: libssl1.0.0:armhf
+Owners: libssl1.0.0, libssl1.0.0:armhf
+
+Name: man-db/auto-update
+Template: man-db/auto-update
+Owners: man-db
+
+Name: man-db/install-setuid
+Template: man-db/install-setuid
+Value: false
+Owners: man-db
 
 Name: resolvconf/downup-interfaces
 Template: resolvconf/downup-interfaces

@@ -11,7 +11,7 @@ dabd5359b8fe39fc22ee25964e30337a  usr/share/doc/initramfs-tools/examples/example
 b3a3d06b9205eff8f6f431f24c62199f  usr/share/doc/initramfs-tools/examples/framebuffer
 604c456a0c2f0a3107f54c9d20393ba5  usr/share/doc/initramfs-tools/examples/modules
 07408337a718f4f8c8c6055b6b58972e  usr/share/doc/initramfs-tools/maintainer-notes.html
-bb7d1c797ed1a6e0116957cf8e5c575b  usr/share/initramfs-tools/hook-functions
+d1c77ac663ccacaa2910dc0d945b5c0e  usr/share/initramfs-tools/hook-functions
 f6b6ddbd72ffc25f35c17a867c8b2c4b  usr/share/initramfs-tools/hooks/busybox
 63f621e4500fdfc6383d551150abeef0  usr/share/initramfs-tools/hooks/compcache
 380f9722c770547ce08b7963bc02f865  usr/share/initramfs-tools/hooks/fixrtc

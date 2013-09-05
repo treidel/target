@@ -3,3 +3,9 @@
 /usr/share/glib-2.0/schemas libglib2.0-0
 /etc/init ureadahead
 /etc/init.d ureadahead
+/usr/man man-db
+/usr/share/man man-db
+/usr/local/man man-db
+/usr/local/share/man man-db
+/usr/X11R6/man man-db
+/opt/man man-db

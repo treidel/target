@@ -12,3 +12,7 @@ update-alternatives 2013-02-13 22:27:32: link group pager updated to point to /b
 update-alternatives 2013-02-13 22:27:32: run with --install /usr/bin/pager pager /usr/bin/pg 10 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/pg.1.gz
 update-alternatives 2013-02-13 22:27:32: run with --install /usr/bin/w w /usr/bin/w.procps 50 --slave /usr/share/man/man1/w.1.gz w.1.gz /usr/share/man/man1/w.procps.1.gz
 update-alternatives 2013-02-13 22:27:32: link group w updated to point to /usr/bin/w.procps
+update-alternatives 2000-01-01 00:43:32: run with --install /usr/bin/write write /usr/bin/bsd-write 100 --slave /usr/share/man/man1/write.1.gz write.1.gz /usr/share/man/man1/bsd-write.1.gz
+update-alternatives 2000-01-01 00:43:32: link group write updated to point to /usr/bin/bsd-write
+update-alternatives 2000-01-01 00:43:32: run with --install /usr/bin/from from /usr/bin/bsd-from 10 --slave /usr/share/man/man1/from.1.gz from.1.gz /usr/share/man/man1/bsd-from.1.gz
+update-alternatives 2000-01-01 00:43:33: link group from updated to point to /usr/bin/bsd-from

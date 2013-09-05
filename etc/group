@@ -43,3 +43,5 @@ syslog:x:103:
 ssh:x:104:
 netdev:x:105:
 ubuntu:x:1000:
+messagebus:x:106:
+bluetooth:x:107:

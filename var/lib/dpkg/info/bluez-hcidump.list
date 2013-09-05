@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/hcidump.8.gz
+/usr/share/doc
+/usr/share/doc/bluez-hcidump
+/usr/share/doc/bluez-hcidump/copyright
+/usr/share/doc/bluez-hcidump/changelog.Debian.gz
+/usr/sbin
+/usr/sbin/hcidump

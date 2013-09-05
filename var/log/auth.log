@@ -1,0 +1,116 @@
+Jan  1 00:00:07 ubuntu-armhf sshd[293]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:07 ubuntu-armhf sshd[293]: Server listening on :: port 22.
+Jan  1 00:02:18 ubuntu-armhf login[416]: pam_unix(login:account): account ubuntu has password changed in future
+Jan  1 00:02:18 ubuntu-armhf login[416]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:02:18 ubuntu-armhf login[416]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jan  1 00:02:40 ubuntu-armhf sudo: pam_unix(sudo:account): account ubuntu has password changed in future
+Jan  1 00:02:40 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc/network ; USER=root ; COMMAND=/usr/bin/vi interfaces
+Jan  1 00:02:40 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:02:40 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 00:03:24 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:04:26 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/modprobe g_ether
+Jan  1 00:04:26 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:04:26 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 00:04:26 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:05:08 ubuntu-armhf sshd[293]: Received signal 15; terminating.
+Jan  1 00:05:08 ubuntu-armhf sshd[483]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:05:08 ubuntu-armhf sshd[483]: Server listening on :: port 22.
+Jan  1 00:06:47 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/ifconfig usb0 192.168.7.2 netmask 255.255.255.252
+Jan  1 00:06:47 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:06:47 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 00:06:47 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:10:14 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc/network ; USER=root ; COMMAND=/sbin/route add default gw 192.168.7.1
+Jan  1 00:10:14 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:10:14 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 00:10:14 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:13:55 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vi resolv.conf
+Jan  1 00:13:55 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:13:55 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 00:14:15 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:14:23 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  1 00:14:23 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:14:23 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 00:16:43 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:16:50 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Jan  1 00:16:50 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:16:50 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 00:17:01 ubuntu-armhf CRON[569]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:17:01 ubuntu-armhf CRON[569]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:17:01 ubuntu-armhf CRON[569]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 ubuntu-armhf CRON[569]: pam_unix(cron:session): session closed for user root
+Jan  1 00:21:11 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:38:12 ubuntu-armhf sudo: pam_unix(sudo:account): account ubuntu has password changed in future
+Jan  1 00:38:12 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install man
+Jan  1 00:38:12 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:38:12 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 00:44:52 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:45:13 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install gdbserver
+Jan  1 00:45:13 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:45:13 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 00:47:06 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:58:18 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install libev4
+Jan  1 00:58:18 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:58:18 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:00:08 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:01:28 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install liblog4cpp10
+Jan  1 01:01:28 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:01:28 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:02:02 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:02:09 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install libbluetooth3
+Jan  1 01:02:09 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:02:09 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:03:51 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:04:28 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install liblog4cxx10
+Jan  1 01:04:28 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:04:28 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:06:54 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:07:00 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install libprotobuf-lite
+Jan  1 01:07:00 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:07:00 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:07:32 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:08:08 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install libprotobuf-lite7
+Jan  1 01:08:08 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:08:08 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:09:48 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:09:59 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install libasound2
+Jan  1 01:09:59 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:09:59 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:11:43 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:11:49 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install dnsutils
+Jan  1 01:11:49 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:11:49 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:14:25 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:15:57 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install hcidump
+Jan  1 01:15:57 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:15:57 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:16:30 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:17:01 ubuntu-armhf CRON[7964]: pam_unix(cron:account): account root has password changed in future
+Jan  1 01:17:01 ubuntu-armhf CRON[7964]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:17:01 ubuntu-armhf CRON[7964]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:17:01 ubuntu-armhf CRON[7964]: pam_unix(cron:session): session closed for user root
+Jan  1 01:18:52 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install bluez-hcidump
+Jan  1 01:18:52 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:18:52 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:20:40 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:21:41 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-get install bluez
+Jan  1 01:21:41 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:21:41 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:23:40 ubuntu-armhf groupadd[8490]: group added to /etc/group: name=messagebus, GID=106
+Jan  1 01:23:41 ubuntu-armhf groupadd[8490]: group added to /etc/gshadow: name=messagebus
+Jan  1 01:23:41 ubuntu-armhf groupadd[8490]: new group: name=messagebus, GID=106
+Jan  1 01:23:41 ubuntu-armhf useradd[8495]: new user: name=messagebus, UID=103, GID=106, home=/var/run/dbus, shell=/bin/false
+Jan  1 01:23:41 ubuntu-armhf usermod[8500]: change user 'messagebus' password
+Jan  1 01:23:41 ubuntu-armhf chage[8505]: changed password expiry for messagebus
+Jan  1 01:23:46 ubuntu-armhf groupadd[8564]: group added to /etc/group: name=bluetooth, GID=107
+Jan  1 01:23:46 ubuntu-armhf groupadd[8564]: group added to /etc/gshadow: name=bluetooth
+Jan  1 01:23:46 ubuntu-armhf groupadd[8564]: new group: name=bluetooth, GID=107
+Jan  1 01:24:26 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:26:55 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/usr/bin ; USER=root ; COMMAND=/usr/bin/apt-get install udhcpd
+Jan  1 01:26:55 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:26:55 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:30:14 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:31:34 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/usr/bin ; USER=root ; COMMAND=/sbin/shutdown now
+Jan  1 01:31:34 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 01:31:34 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 01:31:34 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 01:31:34 ubuntu-armhf sshd[483]: Received signal 15; terminating.
