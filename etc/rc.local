@@ -13,4 +13,10 @@
 # start the g_ether kernel module to create the usb0 network interface
 modprobe g_ether
 
+# configure the bluetooth broadcast name
+dbus-send --print-reply --system --dest=org.bluez /org/bluez/$(pidof bluetoothd)/hci0 org.bluez.Adapter.SetProperty string:'Name' variant:string:'leveling-glass'
+
+# turn on public discovery of this device
+hciconfig hci0 piscan
+
 exit 0
