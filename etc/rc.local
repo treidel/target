@@ -9,6 +9,8 @@
 # In order to enable or disable this script just change the execution
 # bits.
 #
-# By default this script does nothing.
+
+# start the g_ether kernel module to create the usb0 network interface
+modprobe g_ether
 
 exit 0
