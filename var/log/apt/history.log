@@ -68,3 +68,8 @@ Start-Date: 2000-01-01  01:29:28
 Commandline: apt-get install udhcpd
 Install: udhcpd:armhf (1.18.5-1ubuntu4.1), busybox:armhf (1.18.5-1ubuntu4.1, automatic)
 End-Date: 2000-01-01  01:29:41
+
+Start-Date: 2000-01-01  00:17:23
+Commandline: apt-get install alsa-utils
+Install: libpci3:armhf (3.1.8-2ubuntu6, automatic), pciutils:armhf (3.1.8-2ubuntu6, automatic), alsa-utils:armhf (1.0.25-1ubuntu5.2), libsamplerate0:armhf (0.1.8-4, automatic), alsa-base:armhf (1.0.25+dfsg-0ubuntu1.1, automatic), linux-sound-base:armhf (1.0.25+dfsg-0ubuntu1.1, automatic)
+End-Date: 2000-01-01  00:18:00

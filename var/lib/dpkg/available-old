@@ -4764,6 +4764,22 @@ Description: Embedded GNU C Library: Shared libraries
 Homepage: http://www.eglibc.org
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 
+Package: linux-image-3.8.13-bone28
+Priority: optional
+Section: kernel
+Installed-Size: 41149
+Maintainer: Anonymous <root@imx6q-wandboard-2gb-0.localdomain>
+Architecture: armhf
+Source: linux-upstream
+Version: 1.0precise
+Provides: linux-image, linux-image-2.6, linux-modules-3.8.13-bone28
+Suggests: linux-firmware-image
+Size: 15597850
+Description: Linux kernel, version 3.8.13-bone28 on armhf
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 3.8.13-bone28.
+Homepage: http://www.kernel.org/
+
 Package: libpng12-0
 Multi-Arch: same
 Priority: required
@@ -5046,6 +5062,33 @@ Description: Middleware to access a smart card using PC/SC (library)
 Homepage: http://pcsclite.alioth.debian.org/
 Original-Maintainer: Ludovic Rousseau <rousseau@debian.org>
 
+Package: busybox
+Priority: optional
+Section: utils
+Installed-Size: 439
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1:1.18.5-1ubuntu4.1
+Replaces: busybox-static
+Depends: libc6 (>= 2.15-0ubuntu8)
+Conflicts: busybox-static
+Size: 301102
+Description: Tiny utilities for small and embedded systems
+ BusyBox combines tiny versions of many common UNIX utilities into a single
+ small executable. It provides minimalist replacements for the most common
+ utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+ mount, tar, etc.). The utilities in BusyBox generally have fewer options than
+ their full-featured GNU cousins; however, the options that are included
+ provide the expected functionality and behave very much like their GNU
+ counterparts.
+ .
+ This package installs the BusyBox binary but does not install
+ symlinks for any of the supported utilities. Some of the utilities
+ can be used in the system by installing the busybox-syslogd,
+ busybox-udhcpc or busybox-udhcpd packages.
+Homepage: http://www.busybox.net
+Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+
 Package: isc-dhcp-client
 Priority: important
 Section: net
@@ -5145,6 +5188,27 @@ Description: securely retrieve an SSH public key and install it locally
  default), retrieve one or more user's public keys, and append these to
  the current user's ~/.ssh/authorized_keys file.
 Homepage: http://launchpad.net/ssh-import-id
+
+Package: udhcpd
+Priority: optional
+Section: net
+Installed-Size: 85
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Source: busybox
+Version: 1:1.18.5-1ubuntu4.1
+Provides: dhcpd
+Depends: busybox (>= 1:1.18.5-1ubuntu4.1) | busybox-static (>= 1:1.18.5-1ubuntu4.1)
+Size: 8170
+Description: Provides the busybox DHCP server implementation
+ Busybox contains a very small yet fully function RFC compliant DHCP
+ server formerly known as udhcpd.
+ .
+ This package contains the glue to use the busybox udhcpd as DHCP
+ server in the system by providing the appropriate symbolic links and
+ scripts.
+Homepage: http://www.busybox.net
+Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 
 Package: less
 Priority: standard

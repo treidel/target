@@ -114,3 +114,36 @@ Jan  1 01:31:34 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env fil
 Jan  1 01:31:34 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
 Jan  1 01:31:34 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
 Jan  1 01:31:34 ubuntu-armhf sshd[483]: Received signal 15; terminating.
+Jan  1 00:00:06 ubuntu-armhf sshd[273]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 ubuntu-armhf sshd[273]: Server listening on :: port 22.
+Jan  1 00:00:19 ubuntu-armhf login[436]: pam_unix(login:account): account ubuntu has password changed in future
+Jan  1 00:00:19 ubuntu-armhf login[436]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:00:19 ubuntu-armhf login[436]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jan  1 00:00:25 ubuntu-armhf sudo: pam_unix(sudo:account): account ubuntu has password changed in future
+Jan  1 00:00:25 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su -
+Jan  1 00:00:25 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:00:25 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 00:00:25 ubuntu-armhf su[461]: pam_unix(su:account): account root has password changed in future
+Jan  1 00:00:25 ubuntu-armhf su[461]: Successful su for root by root
+Jan  1 00:00:25 ubuntu-armhf su[461]: + /dev/ttyO0 root:root
+Jan  1 00:00:25 ubuntu-armhf su[461]: pam_env(su:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:00:25 ubuntu-armhf su[461]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
+Jan  1 00:14:09 ubuntu-armhf login[436]: pam_unix(login:account): account ubuntu has password changed in future
+Jan  1 00:14:09 ubuntu-armhf login[436]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:14:09 ubuntu-armhf login[436]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jan  1 00:14:36 ubuntu-armhf sudo: pam_unix(sudo:account): account ubuntu has password changed in future
+Jan  1 00:14:36 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/lib/firmware ; USER=root ; COMMAND=/bin/su -
+Jan  1 00:14:36 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:14:36 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 00:14:36 ubuntu-armhf su[463]: pam_unix(su:account): account root has password changed in future
+Jan  1 00:14:36 ubuntu-armhf su[463]: Successful su for root by root
+Jan  1 00:14:36 ubuntu-armhf su[463]: + /dev/ttyO0 root:root
+Jan  1 00:14:36 ubuntu-armhf su[463]: pam_env(su:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:14:36 ubuntu-armhf su[463]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
+Jan  1 00:17:01 ubuntu-armhf CRON[503]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:17:01 ubuntu-armhf CRON[503]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:17:01 ubuntu-armhf CRON[503]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 ubuntu-armhf CRON[503]: pam_unix(cron:session): session closed for user root
+Jan  1 00:18:38 ubuntu-armhf sshd[272]: Received signal 15; terminating.
+Jan  1 00:18:38 ubuntu-armhf su[463]: pam_unix(su:session): session closed for user root
+Jan  1 00:18:38 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root

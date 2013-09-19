@@ -342,3 +342,23 @@ Package: busybox
 Architecture: armhf
 Auto-Installed: 1
 
+Package: libpci3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: pciutils
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libsamplerate0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: alsa-base
+Architecture: armhf
+Auto-Installed: 1
+
+Package: linux-sound-base
+Architecture: armhf
+Auto-Installed: 1
+

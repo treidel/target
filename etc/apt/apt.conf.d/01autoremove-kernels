@@ -3,10 +3,15 @@ APT
 {
   NeverAutoRemove
   {
-    "^linux-image-2.6.32$";
-    "^linux-image-extra-2.6.32$";
-    "^linux-signed-image-2.6.32$";
-    "^linux-backports-modules-.*-2.6.32$";
-    "^linux-headers-2.6.32$";
+    "^linux-image-3.8.13-bone20$";
+    "^linux-image-extra-3.8.13-bone20$";
+    "^linux-signed-image-3.8.13-bone20$";
+    "^linux-backports-modules-.*-3.8.13-bone20$";
+    "^linux-headers-3.8.13-bone20$";
+    "^linux-image-3.8.13-bone28$";
+    "^linux-image-extra-3.8.13-bone28$";
+    "^linux-signed-image-3.8.13-bone28$";
+    "^linux-backports-modules-.*-3.8.13-bone28$";
+    "^linux-headers-3.8.13-bone28$";
   };
 };

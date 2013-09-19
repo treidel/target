@@ -51,3 +51,10 @@ apt-get install udhcpd
 sudo apt-get install udhcpd
 shutdown
 sudo shutdown now
+ls
+sudo su -
+cd /lib/firmware/
+ls
+ls *AUD*
+arecord -l
+sudo su -

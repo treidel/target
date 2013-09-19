@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+# Pass maintainer script parameters to hook scripts
+export DEB_MAINT_PARAMS="$*"
+
+test -d /etc/kernel/postrm.d && run-parts --arg="3.8.13-bone28" /etc/kernel/postrm.d
+exit 0
