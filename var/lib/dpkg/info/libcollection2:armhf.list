@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcollection2
+/usr/share/doc/libcollection2/copyright
+/usr/share/doc/libcollection2/changelog.Debian.gz
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libcollection.so.2.0.0
+/usr/lib/arm-linux-gnueabihf/libcollection.so.2

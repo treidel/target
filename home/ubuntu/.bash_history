@@ -58,3 +58,6 @@ ls
 ls *AUD*
 arecord -l
 sudo su -
+cd var
+c dlib
+sudo su -

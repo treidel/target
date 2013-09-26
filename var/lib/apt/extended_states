@@ -362,3 +362,15 @@ Package: linux-sound-base
 Architecture: armhf
 Auto-Installed: 1
 
+Package: libref-array1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpath-utils1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libcollection2
+Architecture: armhf
+Auto-Installed: 1
+

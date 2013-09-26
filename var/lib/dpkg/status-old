@@ -66,6 +66,30 @@ Description: Debian configuration management system
  use Debconf to ask questions when they are installed.
 Original-Maintainer: Debconf Developers <debconf-devel@lists.alioth.debian.org>
 
+Package: libini-config2
+Status: install ok unpacked
+Multi-Arch: same
+Priority: extra
+Section: libs
+Installed-Size: 60
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: ding-libs
+Version: 0.1.3-1
+Replaces: libini-config
+Provides: libini-config
+Depends: libc6 (>= 2.4), libcollection2, libpath-utils1, libref-array1
+Pre-Depends: multiarch-support
+Conflicts: libini-config
+Description: INI file parser for C
+ Library to process config files in INI format into a libcollection data
+ structure.
+ .
+ This package is part of the ding-libs, libraries that are required for the
+ proper functioning of SSSD, the System Security Services Daemon.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+Homepage: https://fedorahosted.org/sssd/
+
 Package: libelf1
 Status: install ok installed
 Multi-Arch: same
@@ -943,7 +967,7 @@ Homepage: http://pam.sourceforge.net/
 Original-Maintainer: Steve Langasek <vorlon@debian.org>
 
 Package: libpci3
-Status: install ok unpacked
+Status: install ok installed
 Multi-Arch: same
 Priority: standard
 Section: libs
@@ -1093,7 +1117,7 @@ Homepage: http://www.linux-foundation.org/en/LSB
 Original-Maintainer: Chris Lawrence <lawrencc@debian.org>
 
 Package: libsamplerate0
-Status: install ok unpacked
+Status: install ok installed
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -1412,7 +1436,7 @@ Description: ISC Shared Library used by BIND
 Original-Maintainer: LaMont Jones <lamont@debian.org>
 
 Package: pciutils
-Status: install ok unpacked
+Status: install ok installed
 Multi-Arch: foreign
 Priority: standard
 Section: admin
@@ -4333,7 +4357,7 @@ Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.aliot
 Homepage: http://live.gnome.org/GObjectIntrospection
 
 Package: alsa-utils
-Status: install ok unpacked
+Status: install ok installed
 Multi-Arch: foreign
 Priority: optional
 Section: sound
@@ -4347,8 +4371,8 @@ Pre-Depends: dpkg (>= 1.15.7.2)
 Recommends: alsa-base (>= 1.0.15-1), pciutils
 Conflicts: alsa-base (<< 1.0.9b-3), udev (<< 0.060)
 Conffiles:
- /etc/init/alsa-restore.conf newconffile
- /etc/init/alsa-store.conf newconffile
+ /etc/init/alsa-restore.conf c8186cdbf2225bcb3cc042f9b559ef95
+ /etc/init/alsa-store.conf 85e0cfe7e4ce377662e7572734ce9c30
 Description: Utilities for configuring and using ALSA
  Included tools:
   - amixer: command line mixer
@@ -4522,6 +4546,29 @@ Description: shared low-level terminfo library for terminal handling
 Original-Maintainer: Craig Small <csmall@debian.org>
 Homepage: http://invisible-island.net/ncurses/
 
+Package: libref-array1
+Status: install ok unpacked
+Multi-Arch: same
+Priority: extra
+Section: libs
+Installed-Size: 44
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: ding-libs
+Version: 0.1.3-1
+Replaces: libref-array
+Provides: libref-array
+Depends: libc6 (>= 2.4)
+Pre-Depends: multiarch-support
+Conflicts: libref-array
+Description: refcounted array for C
+ A dynamically-growing, reference-counted array
+ .
+ This package is part of the ding-libs, libraries that are required for the
+ proper functioning of SSSD, the System Security Services Daemon.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+Homepage: https://fedorahosted.org/sssd/
+
 Package: libpciaccess0
 Status: install ok installed
 Multi-Arch: same
@@ -4599,7 +4646,7 @@ Description: MIME files 'mime.types' & 'mailcap', and support programs
 Original-Maintainer: Brian White <bcwhite@pobox.com>
 
 Package: alsa-base
-Status: install ok unpacked
+Status: install ok installed
 Multi-Arch: foreign
 Priority: optional
 Section: sound
@@ -4613,9 +4660,9 @@ Depends: module-init-tools (>= 3.2.1), linux-sound-base, udev
 Recommends: alsa-utils
 Suggests: apmd (>= 3.0.2-1), alsa-oss, oss-compat
 Conffiles:
- /etc/modprobe.d/alsa-base.conf newconffile
- /etc/modprobe.d/blacklist-modem.conf newconffile
- /etc/apm/scripts.d/alsa newconffile
+ /etc/modprobe.d/alsa-base.conf 817bff6351a7321f5bbf000f39f587c0
+ /etc/modprobe.d/blacklist-modem.conf 83850631d180e0c064ee313d57cd7c86
+ /etc/apm/scripts.d/alsa f83b2095c1d2a46d7eac161c5ff0373d
 Description: ALSA driver configuration files
  This package contains various configuration files for
  the ALSA drivers.
@@ -5033,6 +5080,29 @@ Description: Embedded GNU C Library: Shared libraries
 Homepage: http://www.eglibc.org
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 
+Package: libpath-utils1
+Status: install ok unpacked
+Multi-Arch: same
+Priority: extra
+Section: libs
+Installed-Size: 48
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: ding-libs
+Version: 0.1.3-1
+Replaces: libpath-utils
+Provides: libpath-utils
+Depends: libc6 (>= 2.4)
+Pre-Depends: multiarch-support
+Conflicts: libpath-utils
+Description: Filesystem Path Utilities
+ Utility functions to manipulate filesystem pathnames.
+ .
+ This package is part of the ding-libs, libraries that are required for the
+ proper functioning of SSSD, the System Security Services Daemon.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+Homepage: https://fedorahosted.org/sssd/
+
 Package: linux-image-3.8.13-bone28
 Status: install ok installed
 Priority: optional
@@ -5123,6 +5193,30 @@ Description: rule-based device node and kernel event manager
  device node, creating additional symlinks or calling other tools and programs
  including those to load kernel modules and initialise the device.
 Homepage: http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
+
+Package: libcollection2
+Status: install ok unpacked
+Multi-Arch: same
+Priority: extra
+Section: libs
+Installed-Size: 64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Source: ding-libs
+Version: 0.1.3-1
+Replaces: libcollection
+Provides: libcollection
+Depends: libc6 (>= 2.4)
+Pre-Depends: multiarch-support
+Conflicts: libcollection
+Description: Collection data-type for C
+ A data-type to collect data in a hierarchical structure for easy iteration
+ and serialization.
+ .
+ This package is part of the ding-libs, libraries that are required for the
+ proper functioning of SSSD, the System Security Services Daemon.
+Original-Maintainer: Debian SSSD Team <pkg-sssd-devel@lists.alioth.debian.org>
+Homepage: https://fedorahosted.org/sssd/
 
 Package: libdns81
 Status: install ok installed
@@ -5587,7 +5681,7 @@ Description: GNU readline and history libraries, common files
 Original-Maintainer: Matthias Klose <doko@debian.org>
 
 Package: linux-sound-base
-Status: install ok unpacked
+Status: install ok installed
 Priority: optional
 Section: sound
 Installed-Size: 96

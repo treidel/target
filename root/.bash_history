@@ -35,3 +35,22 @@ arecord -l
 shutdonw
 shutdown
 shutdown now
+cd /var
+cd lib
+cd bluetooth/
+ls
+rm -rf 00\:02\:72\:33\:47\:DC/
+ls
+cd /
+route add default gw 192.168.7.1
+modprobe g_ether
+ifconfig
+lsmod
+ifconfig -a
+ifconfig usb0 192.168.7.2 255.255.255.252
+ifconfig usb0 192.168.7.2 netmask 255.255.255.252
+route add default gw 192.168.7.1
+ping www.yahoo.com
+apt-get install libini-config2
+shutdown
+shutdown now
