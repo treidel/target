@@ -61,3 +61,27 @@ sudo su -
 cd var
 c dlib
 sudo su -
+ifconfig -a
+lsmod
+ps -ef | grep level
+ls
+cd /sys
+ls
+cd dev
+cd ..
+cd evices
+ls
+cd evices
+cd devices
+ls
+cd ..
+find *| grep eth
+find *| grep eth | more
+cd devices/
+cd ocp.2/
+ls
+cd 4a100000.ethernet/
+ls
+ls -l
+ping 192.168.7.1
+sudo su -

@@ -374,3 +374,19 @@ Package: libcollection2
 Architecture: armhf
 Auto-Installed: 1
 
+Package: libclass-isa-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libswitch-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: perl-modules
+Architecture: armhf
+Auto-Installed: 1
+

@@ -16,3 +16,5 @@ update-alternatives 2000-01-01 00:43:32: run with --install /usr/bin/write write
 update-alternatives 2000-01-01 00:43:32: link group write updated to point to /usr/bin/bsd-write
 update-alternatives 2000-01-01 00:43:32: run with --install /usr/bin/from from /usr/bin/bsd-from 10 --slave /usr/share/man/man1/from.1.gz from.1.gz /usr/share/man/man1/bsd-from.1.gz
 update-alternatives 2000-01-01 00:43:33: link group from updated to point to /usr/bin/bsd-from
+update-alternatives 2000-01-01 00:12:05: run with --install /usr/bin/rename rename /usr/bin/prename 60 --slave /usr/share/man/man1/rename.1.gz rename.1.gz /usr/share/man/man1/prename.1.gz
+update-alternatives 2000-01-01 00:12:05: link group rename updated to point to /usr/bin/prename

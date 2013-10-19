@@ -78,3 +78,8 @@ Start-Date: 2000-01-01  00:04:04
 Commandline: apt-get install libini-config2
 Install: libref-array1:armhf (0.1.3-1, automatic), libpath-utils1:armhf (0.1.3-1, automatic), libini-config2:armhf (0.1.3-1), libcollection2:armhf (0.1.3-1, automatic)
 End-Date: 2000-01-01  00:04:21
+
+Start-Date: 2000-01-01  00:10:52
+Commandline: apt-get install i2c-tools
+Install: i2c-tools:armhf (3.0.3-5build1), libclass-isa-perl:armhf (0.36-3, automatic), libswitch-perl:armhf (2.16-2, automatic), perl:armhf (5.14.2-6ubuntu2.3, automatic), perl-modules:armhf (5.14.2-6ubuntu2.3, automatic)
+End-Date: 2000-01-01  00:12:08

@@ -44,3 +44,4 @@ ssh:!::
 netdev:!::
 ubuntu:!::
 messagebus:!::
+bluetooth:!::

@@ -15,7 +15,7 @@
 [    0.000000] pcpu-alloc: s14080 r8192 d14592 u36864 alloc=9*4096
 [    0.000000] pcpu-alloc: [0] 0 
 [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 129792
-[    0.000000] Kernel command line: console=ttyO0,115200n8 fixrtc capemgr.disable_partno=BB-BONELT-HDMI,BB-BONELT-HDMIN root=/dev/mmcblk0p2 ro rootfstype=ext4 rootwait
+[    0.000000] Kernel command line: console=ttyO0,115200n8 fixrtc capemgr.disable_partno=BB-BONELT-HDMI,BB-BONELT-HDMIN root=/dev/mmcblk0p2 ro rootfstype=ext4 rootwait fixrtc
 [    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
 [    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
 [    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
@@ -23,7 +23,7 @@
 [    0.000000] allocated 1048576 bytes of page_cgroup
 [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
 [    0.000000] Memory: 511MB = 511MB total
-[    0.000000] Memory: 507168k/507168k available, 17120k reserved, 0K highmem
+[    0.000000] Memory: 507180k/507180k available, 17108k reserved, 0K highmem
 [    0.000000] Virtual kernel memory layout:
 [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
 [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
@@ -44,369 +44,369 @@
 [    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
 [    0.000000] OMAP clocksource: GPTIMER2 at 24000000 Hz
 [    0.000000] Console: colour dummy device 80x30
-[    0.000382] Calibrating delay loop... 363.67 BogoMIPS (lpj=354304)
-[    0.017387] pid_max: default: 32768 minimum: 301
-[    0.017634] Security Framework initialized
-[    0.017735] Mount-cache hash table entries: 512
-[    0.027209] Initializing cgroup subsys cpuacct
-[    0.027244] Initializing cgroup subsys memory
-[    0.027314] Initializing cgroup subsys blkio
-[    0.027463] CPU: Testing write buffer coherency: ok
-[    0.028045] CPU0: thread -1, cpu 0, socket -1, mpidr 0
-[    0.028125] Setting up static identity map for 0x8061b340 - 0x8061b398
-[    0.029798] Brought up 1 CPUs
-[    0.029825] SMP: Total of 1 processors activated (363.67 BogoMIPS).
-[    0.031191] devtmpfs: initialized
-[    0.095249] pinctrl core: initialized pinctrl subsystem
-[    0.095556] rstctl core: initialized rstctl subsystem
-[    0.096069] regulator-dummy: no parameters
-[    0.096621] NET: Registered protocol family 16
-[    0.097594] DMA: preallocated 256 KiB pool for atomic coherent allocations
-[    0.107806] pinctrl-single 44e10800.pinmux: 142 pins at pa f9e10800 size 568
-[    0.108568] platform 49000000.edma: alias fck already exists
-[    0.108598] platform 49000000.edma: alias fck already exists
-[    0.108623] platform 49000000.edma: alias fck already exists
-[    0.109865] gpiochip_add: registered GPIOs 0 to 31 on device: gpio
-[    0.110046] OMAP GPIO hardware version 0.1
-[    0.111588] gpiochip_add: registered GPIOs 32 to 63 on device: gpio
-[    0.112887] gpiochip_add: registered GPIOs 64 to 95 on device: gpio
-[    0.114279] gpiochip_add: registered GPIOs 96 to 127 on device: gpio
-[    0.114771] of_get_named_gpio_flags exited with status 52
-[    0.114800] gpio-rctrl rstctl.3: loaded OK
-[    0.120317] hw-breakpoint: debug architecture 0x4 unsupported.
-[    0.122472] cpsw.0: No hwaddr in dt. Using 90:59:af:6a:50:ad from efuse
-[    0.122507] cpsw.1: No hwaddr in dt. Using 90:59:af:6a:50:af from efuse
-[    0.136731] bio: create slab <bio-0> at 0
-[    0.148366] edma-dma-engine edma-dma-engine.0: TI EDMA DMA engine driver
-[    0.148597] of_get_named_gpio_flags: can't parse gpios property
-[    0.148826] vmmcsd_fixed: 3300 mV 
-[    0.151593] SCSI subsystem initialized
-[    0.152017] usbcore: registered new interface driver usbfs
-[    0.152191] usbcore: registered new interface driver hub
-[    0.152512] usbcore: registered new device driver usb
-[    0.154621] omap_i2c 44e0b000.i2c: bus 0 rev0.11 at 400 kHz
-[    0.156240] input: tps65217_pwr_but as /devices/ocp.2/44e0b000.i2c/i2c-0/0-0024/input/input0
-[    0.158629] DCDC1: at 1500 mV 
-[    0.159797] vdd_mpu: 925 <--> 1325 mV at 1100 mV 
-[    0.160992] vdd_core: 925 <--> 1150 mV at 1100 mV 
-[    0.162174] LDO1: at 1800 mV 
-[    0.163259] LDO2: at 3300 mV 
-[    0.165230] LDO3: 1800 mV 
-[    0.166386] LDO4: at 3300 mV 
-[    0.167389] tps65217 0-0024: TPS65217 ID 0xe version 1.2
-[    0.168273] omap_i2c 44e0b000.i2c: unable to select pin group
-[    0.169098] omap_i2c 4819c000.i2c: bus 1 rev0.11 at 100 kHz
-[    0.171625] omap_i2c 4819c000.i2c: unable to select pin group
-[    0.171948] media: Linux media interface: v0.10
-[    0.172053] Linux video capture interface: v2.00
-[    0.172187] pps_core: LinuxPPS API ver. 1 registered
-[    0.172204] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
-[    0.172893] Advanced Linux Sound Architecture Driver Initialized.
-[    0.173969] NetLabel: Initializing
-[    0.173990] NetLabel:  domain hash size = 128
-[    0.174002] NetLabel:  protocols = UNLABELED CIPSOv4
-[    0.174118] NetLabel:  unlabeled traffic allowed by default
-[    0.174465] Switching to clocksource gp_timer
-[    0.230978] NET: Registered protocol family 2
-[    0.232185] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
-[    0.232327] TCP bind hash table entries: 4096 (order: 4, 81920 bytes)
-[    0.232476] TCP: Hash tables configured (established 4096 bind 4096)
-[    0.232576] TCP: reno registered
-[    0.232604] UDP hash table entries: 256 (order: 1, 12288 bytes)
-[    0.232646] UDP-Lite hash table entries: 256 (order: 1, 12288 bytes)
-[    0.233077] NET: Registered protocol family 1
-[    0.233801] RPC: Registered named UNIX socket transport module.
-[    0.233823] RPC: Registered udp transport module.
-[    0.233837] RPC: Registered tcp transport module.
-[    0.233850] RPC: Registered tcp NFSv4.1 backchannel transport module.
-[    0.234945] CPU PMU: probing PMU on CPU 0
-[    0.234980] hw perfevents: enabled with ARMv7 Cortex-A8 PMU driver, 5 counters available
-[    0.235646] omap2_mbox_probe: platform not supported
-[    0.505469] VFS: Disk quotas dquot_6.5.2
-[    0.505743] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
-[    0.507147] NFS: Registering the id_resolver key type
-[    0.507268] Key type id_resolver registered
-[    0.507285] Key type id_legacy registered
-[    0.507356] fuse init (API version 7.20)
-[    0.508222] Btrfs loaded
-[    0.508392] msgmni has been set to 990
-[    0.511489] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
-[    0.511517] io scheduler noop registered
-[    0.511532] io scheduler deadline registered
-[    0.511572] io scheduler cfq registered (default)
-[    0.513574] tps65217-bl tps65217-bl: no platform data provided
-[    0.513619] tps65217-bl: probe of tps65217-bl failed with error -22
-[    0.514651] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
-[    0.517251] omap_uart 44e09000.serial: did not get pins for uart0 error: -19
-[    0.517585] 44e09000.serial: ttyO0 at MMIO 0x44e09000 (irq = 88) is a OMAP UART0
-[    1.248676] console [ttyO0] enabled
-[    1.253631] [drm] Initialized drm 1.1.0 20060810
-[    1.272062] brd: module loaded
-[    1.282403] loop: module loaded
-[    1.285868] at24 0-0050: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
-[    1.293169] at24 1-0054: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
-[    1.300456] at24 1-0055: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
-[    1.307740] at24 1-0056: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
-[    1.315023] at24 1-0057: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
-[    1.329342] bone-capemgr bone_capemgr.9: Baseboard: 'A335BNLT,0A5C,2713BBBK3838'
-[    1.337146] bone-capemgr bone_capemgr.9: compatible-baseboard=ti,beaglebone-black
-[    1.345060] bone-capemgr bone_capemgr.9: Skipping disabled cape with part# BB-BONELT-HDMI
-[    1.377830] bone-capemgr bone_capemgr.9: slot #0: 'BeagleBone AUDIO CAPE,00A1,Beagleboardtoys,BB-BONE-AUDI-01'
-[    1.418738] bone-capemgr bone_capemgr.9: slot #1: No cape found
-[    1.455842] bone-capemgr bone_capemgr.9: slot #2: No cape found
-[    1.492951] bone-capemgr bone_capemgr.9: slot #3: No cape found
-[    1.499215] bone-capemgr bone_capemgr.9: slot #4: specific override
-[    1.505825] bone-capemgr bone_capemgr.9: bone: Using override eeprom data at slot 4
-[    1.513869] bone-capemgr bone_capemgr.9: slot #4: 'Bone-LT-eMMC-2G,00A0,Texas Instrument,BB-BONE-EMMC-2G'
-[    1.524016] bone-capemgr bone_capemgr.9: slot #5: specific override
-[    1.530621] bone-capemgr bone_capemgr.9: bone: Using override eeprom data at slot 5
-[    1.538664] bone-capemgr bone_capemgr.9: slot #5: 'Bone-Black-HDMI,00A0,Texas Instrument,BB-BONELT-HDMI'
-[    1.548882] bone-capemgr bone_capemgr.9: Skipping loading of disabled cape with part# BB-BONELT-HDMI
-[    1.558755] bone-capemgr bone_capemgr.9: loader: before slot-0 BB-BONE-AUDI-01:00A1 (prio 0)
-[    1.567639] bone-capemgr bone_capemgr.9: loader: check slot-0 BB-BONE-AUDI-01:00A1 (prio 0)
-[    1.576450] bone-capemgr bone_capemgr.9: initialized OK.
-[    1.582060] bone-capemgr bone_capemgr.9: loader: before slot-4 BB-BONE-EMMC-2G:00A0 (prio 1)
-[    1.590919] bone-capemgr bone_capemgr.9: loader: check slot-4 BB-BONE-EMMC-2G:00A0 (prio 1)
-[    1.601710] OneNAND driver initializing
-[    1.607283] usbcore: registered new interface driver cdc_ether
-[    1.613486] bone-capemgr bone_capemgr.9: loader: after slot-0 BB-BONE-AUDI-01:00A1 (prio 0)
-[    1.622351] usbcore: registered new interface driver rndis_host
-[    1.628658] bone-capemgr bone_capemgr.9: loader: check slot-4 BB-BONE-EMMC-2G:00A0 (prio 1)
-[    1.637572] usbcore: registered new interface driver cdc_ncm
-[    1.643554] bone-capemgr bone_capemgr.9: slot #0: Requesting part number/version based 'BB-BONE-AUDI-01-00A1.dtbo
-[    1.655227] usbcore: registered new interface driver cdc_acm
-[    1.661195] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
-[    1.669592] Initializing USB Mass Storage driver...
-[    1.674750] bone-capemgr bone_capemgr.9: slot #0: Requesting firmware 'BB-BONE-AUDI-01-00A1.dtbo' for board-name 'BeagleBone AUDIO CAPE', version '00A1'
-[    1.689184] usbcore: registered new interface driver usb-storage
-[    1.695502] USB Mass Storage support registered.
-[    1.700913] musb-hdrc: version 6.0, ?dma?, otg (peripheral+host)
-[    1.707703] musb-hdrc musb-hdrc.0.auto: pdev->id = 0
-[    1.712999] musb-hdrc musb-hdrc.0.auto: drivers/usb/musb/musb_dsps.c:468 dsps_musb_init: OK
-[    1.721818] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
-[    1.721838] musb-hdrc: MHDRC RTL version 2.0 
-[    1.721852] musb-hdrc: setup fifo_mode 4
-[    1.721880] musb-hdrc: 28/31 max ep, 16384/16384 memory
-[    1.722033] musb-hdrc musb-hdrc.0.auto: *** mode=3
-[    1.727107] musb-hdrc musb-hdrc.0.auto: *** power=250
-[    1.733216] musb-hdrc musb-hdrc.1.auto: pdev->id = 1
-[    1.738466] musb-hdrc musb-hdrc.1.auto: drivers/usb/musb/musb_dsps.c:468 dsps_musb_init: OK
-[    1.747247] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
-[    1.747265] musb-hdrc: MHDRC RTL version 2.0 
-[    1.747279] musb-hdrc: setup fifo_mode 4
-[    1.747300] musb-hdrc: 28/31 max ep, 16384/16384 memory
-[    1.747447] musb-hdrc musb-hdrc.1.auto: *** mode=1
-[    1.752504] musb-hdrc musb-hdrc.1.auto: *** power=250
-[    1.757821] musb-hdrc musb-hdrc.1.auto: MUSB HDRC host driver
-[    1.764243] musb-hdrc musb-hdrc.1.auto: new USB bus registered, assigned bus number 1
-[    1.772507] musb-hdrc musb-hdrc.1.auto: supports USB remote wakeup
-[    1.772639] usb usb1: default language 0x0409
-[    1.772697] usb usb1: udev 1, busnum 1, minor = 0
-[    1.772719] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
-[    1.779867] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-[    1.787452] usb usb1: Product: MUSB HDRC host driver
-[    1.792676] usb usb1: Manufacturer: Linux 3.8.13-bone28 musb-hcd
-[    1.798988] usb usb1: SerialNumber: musb-hdrc.1.auto
-[    1.804972] usb usb1: usb_probe_device
-[    1.805002] usb usb1: configuration #1 chosen from 1 choice
-[    1.805072] usb usb1: adding 1-0:1.0 (config #1, interface 0)
-[    1.805308] hub 1-0:1.0: usb_probe_interface
-[    1.805330] hub 1-0:1.0: usb_probe_interface - got id
-[    1.805360] hub 1-0:1.0: USB hub found
-[    1.809441] hub 1-0:1.0: 1 port detected
-[    1.813620] hub 1-0:1.0: standalone hub
-[    1.813639] hub 1-0:1.0: individual port power switching
-[    1.813656] hub 1-0:1.0: no over-current protection
-[    1.813672] hub 1-0:1.0: Single TT
-[    1.813691] hub 1-0:1.0: TT requires at most 8 FS bit times (666 ns)
-[    1.813709] hub 1-0:1.0: power on to power good time: 10ms
-[    1.813752] hub 1-0:1.0: local power source is good
-[    1.813874] hub 1-0:1.0: enabling power on all ports
-[    1.814946] mousedev: PS/2 mouse device common for all mice
-[    1.823410] omap_rtc 44e3e000.rtc: rtc core: registered 44e3e000.rtc as rtc0
-[    1.831191] i2c /dev entries driver
-[    1.836496] pps_ldisc: PPS line discipline registered
-[    1.842003] Driver for 1-wire Dallas network protocol.
-[    1.849014] omap_wdt: OMAP Watchdog Timer Rev 0x01: initial timeout 60 sec
-[    1.856979] device-mapper: ioctl: 4.23.1-ioctl (2012-12-18) initialised: dm-devel@redhat.com
-[    1.866022] cpuidle: using governor ladder
-[    1.870370] cpuidle: using governor menu
-[    1.874897] of_get_named_gpio_flags: can't parse gpios property
-[    1.874917] of_get_named_gpio_flags: can't parse gpios property
-[    1.874932] of_get_named_gpio_flags: can't parse gpios property
-[    1.874967] omap_hsmmc mmc.4: of_parse_phandle_with_args of 'reset' failed
-[    1.882208] omap_hsmmc mmc.4: Failed to get rstctl; not using any
-[    1.888648] omap_hsmmc mmc.4: unable to select pin group
-[    1.894517] edma-dma-engine edma-dma-engine.0: allocated channel for 0:25
-[    1.901735] edma-dma-engine edma-dma-engine.0: allocated channel for 0:24
-[    1.909164] mmc.4 supply vmmc_aux not found, using dummy regulator
-[    1.915854] hub 1-0:1.0: state 7 ports 1 chg 0000 evt 0000
-[    1.915938] hub 1-0:1.0: hub_suspend
-[    1.915980] usb usb1: bus auto-suspend, wakeup 1
-[    1.916262] omap_hsmmc mmc.4: pins are not configured from the driver
-[    1.950150] of_get_named_gpio_flags: can't parse gpios property
-[    1.950173] of_get_named_gpio_flags: can't parse gpios property
-[    1.950188] of_get_named_gpio_flags: can't parse gpios property
-[    1.950236] gpio-rctrl rstctl.3: gpio_rctrl_request eMMC_RSTn
-[    1.956469] omap_hsmmc mmc.5: Got rstctl (gpio:#0 name eMMC_RSTn) label:eMMC_RSTn-CONSUMER
-[    1.965207] gpio-rctrl rstctl.3: gpio_rctrl_deassert eMMC_RSTn
-[    1.971405] omap_hsmmc mmc.5: unable to select pin group
-[    1.977346] edma-dma-engine edma-dma-engine.0: allocated channel for 0:3
-[    1.984498] edma-dma-engine edma-dma-engine.0: allocated channel for 0:2
-[    1.991771] mmc.5 supply vmmc_aux not found, using dummy regulator
-[    1.998479] omap_hsmmc mmc.5: pins are not configured from the driver
-[    2.032619] pinctrl-single 44e10800.pinmux: pin 44e10854 already requested by 44e10800.pinmux; cannot claim for gpio-leds.8
-[    2.044359] pinctrl-single 44e10800.pinmux: pin-21 (gpio-leds.8) status -22
-[    2.051673] pinctrl-single 44e10800.pinmux: could not request pin 21 on device pinctrl-single
-[    2.060663] leds-gpio gpio-leds.8: pins are not configured from the driver
-[    2.067935] of_get_named_gpio_flags exited with status 53
-[    2.067959] of_get_named_gpio_flags exited with status 54
-[    2.067979] of_get_named_gpio_flags exited with status 55
-[    2.067998] of_get_named_gpio_flags exited with status 56
-[    2.068029] of_get_named_gpio_flags exited with status 53
-[    2.068267] of_get_named_gpio_flags exited with status 54
-[    2.068472] of_get_named_gpio_flags exited with status 55
-[    2.068667] of_get_named_gpio_flags exited with status 56
-[    2.069268] ledtrig-cpu: registered to indicate activity on CPUs
-[    2.076119] edma-dma-engine edma-dma-engine.0: allocated channel for 0:36
-[    2.083419] omap-sham 53100000.sham: hw accel on OMAP rev 4.3
-[    2.092089] omap-aes 53500000.aes: OMAP AES hw accel rev: 3.2
-[    2.098340] usb usb1: usb wakeup-resume
-[    2.098438] usb usb1: usb auto-resume
-[    2.098470] hub 1-0:1.0: hub_resume
-[    2.098550] hub 1-0:1.0: port 1: status 0101 change 0001
-[    2.099136] edma-dma-engine edma-dma-engine.0: allocated channel for 0:5
-[    2.106382] mmc0: host does not support reading read-only switch. assuming write-enable.
-[    2.115016] edma-dma-engine edma-dma-engine.0: allocated channel for 0:6
-[    2.123226] usbcore: registered new interface driver usbhid
-[    2.129202] usbhid: USB HID core driver
-[    2.133380] mmc0: new high speed SDHC card at address 0007
-[    2.141249] ashmem: initialized
-[    2.144759] mmcblk0: mmc0:0007 SD8GB 7.42 GiB 
-[    2.149938] logger: created 256K log 'log_main'
-[    2.156242] logger: created 256K log 'log_events'
-[    2.161459]  mmcblk0: p1 p2
-[    2.165118] logger: created 256K log 'log_radio'
-[    2.171661] logger: created 256K log 'log_system'
-[    2.179983] TCP: cubic registered
-[    2.183798] NET: Registered protocol family 10
-[    2.189948] NET: Registered protocol family 17
-[    2.195117] Key type dns_resolver registered
-[    2.203211] hub 1-0:1.0: state 7 ports 1 chg 0002 evt 0000
-[    2.203295] hub 1-0:1.0: port 1, status 0101, change 0000, 12 Mb/s
-[    2.199999] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
-[    2.208520] ThumbEE CPU extension supported.
-[    2.213092] Registering SWP/SWPB emulation handler
-[    2.219567] registered taskstats version 1
-[    2.274037] mmc1: BKOPS_EN bit is not set
-[    2.278347] davinci_mdio 4a101000.mdio: davinci mdio revision 1.6
-[    2.284763] davinci_mdio 4a101000.mdio: detected phy mask fffffffe
-[    2.292530] libphy: 4a101000.mdio: probed
-[    2.296858] davinci_mdio 4a101000.mdio: phy[0]: device 4a101000.mdio:00, driver SMSC LAN8710/LAN8720
-[    2.311402] usb 1-1: new full-speed USB device number 2 using musb-hdrc
-[    2.306790] Detected MACID = 90:59:af:6a:50:ad
-[    2.318508] cpsw 4a100000.ethernet: NAPI disabled
-[    2.325010] mmc1: new high speed MMC card at address 0001
-[    2.332153] omap_rtc 44e3e000.rtc: setting system clock to 2000-01-01 00:00:00 UTC (946684800)
-[    2.342184] mmcblk1: mmc1:0001 MMC02G 1.78 GiB 
-[    2.347399] mmcblk1boot0: mmc1:0001 MMC02G partition 1 1.00 MiB
-[    2.355397] mmcblk1boot1: mmc1:0001 MMC02G partition 2 1.00 MiB
-[    2.368208] ALSA device list:
-[    2.371408]   No soundcards found.
-[    2.375137]  mmcblk1: p1 p2
-[    2.380895]  mmcblk1boot1: unknown partition table
-[    2.387619]  mmcblk1boot0: unknown partition table
-[    2.423976] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
-[    2.432734] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
-[    2.443859] devtmpfs: mounted
-[    2.447525] Freeing init memory: 292K
-[    2.453214] usb 1-1: skipped 1 descriptor after interface
-[    2.453413] usb 1-1: default language 0x0409
-[    2.454009] usb 1-1: udev 2, busnum 1, minor = 1
-[    2.454024] usb 1-1: New USB device found, idVendor=0a5c, idProduct=21e8
-[    2.461096] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
-[    2.468581] usb 1-1: Product: BCM20702A0
-[    2.472698] usb 1-1: Manufacturer: Broadcom Corp
-[    2.477539] usb 1-1: SerialNumber: 0002723347DC
-[    2.482860] usb 1-1: usb_probe_device
-[    2.482880] usb 1-1: configuration #1 chosen from 1 choice
-[    2.483067] usb 1-1: adding 1-1:1.0 (config #1, interface 0)
-[    2.483512] usb 1-1: adding 1-1:1.1 (config #1, interface 1)
-[    2.483784] usb 1-1: adding 1-1:1.2 (config #1, interface 2)
-[    2.484050] usb 1-1: adding 1-1:1.3 (config #1, interface 3)
-[    2.484328] hub 1-0:1.0: state 7 ports 1 chg 0000 evt 0002
-[    2.484367] hub 1-0:1.0: port 1 enable change, status 00000103
-[    3.419419] init: ureadahead main process (85) terminated with status 5
-[    4.253227] udevd[141]: starting version 175
-[    4.593252] bone-capemgr bone_capemgr.9: slot #0: dtbo 'BB-BONE-AUDI-01-00A1.dtbo' loaded; converting to live tree
-[    4.593630] bone-capemgr bone_capemgr.9: slot #0: #5 overlays
-[    4.595266] of_get_named_gpio_flags exited with status 51
-[    4.595286] of_get_named_gpio_flags exited with status 50
-[    4.595301] of_get_named_gpio_flags exited with status 51
-[    4.595811] of_get_named_gpio_flags exited with status 50
-[    4.663778] of_get_named_gpio_flags: can't parse gpios property
-[    4.666439] 1-001b supply IOVDD not found, using dummy regulator
-[    4.666529] 1-001b supply DVDD not found, using dummy regulator
-[    4.666586] 1-001b supply AVDD not found, using dummy regulator
-[    4.666650] 1-001b supply DRVDD not found, using dummy regulator
-[    4.675458] davinci_evm sound.12:  tlv320aic3x-hifi <-> 48038000.mcasp mapping ok
-[    4.688466] bone-capemgr bone_capemgr.9: slot #0: Applied #5 overlays.
-[    4.688492] bone-capemgr bone_capemgr.9: loader: done slot-0 BB-BONE-AUDI-01:00A1 (prio 0)
-[    4.688530] bone-capemgr bone_capemgr.9: loader: check slot-4 BB-BONE-EMMC-2G:00A0 (prio 1)
-[    4.688548] bone-capemgr bone_capemgr.9: loader: after slot-4 BB-BONE-EMMC-2G:00A0 (prio 1)
-[    4.688576] bone-capemgr bone_capemgr.9: slot #4: Requesting firmware 'cape-bone-2g-emmc1.dtbo' for board-name 'Bone-LT-eMMC-2G', version '00A0'
-[    4.688596] bone-capemgr bone_capemgr.9: slot #4: dtbo 'cape-bone-2g-emmc1.dtbo' loaded; converting to live tree
-[    4.688898] bone-capemgr bone_capemgr.9: slot #4: #2 overlays
-[    4.689125] bone-capemgr bone_capemgr.9: slot #4: Applied #2 overlays.
-[    4.689140] bone-capemgr bone_capemgr.9: loader: done slot-4 BB-BONE-EMMC-2G:00A0 (prio 1)
-[    5.440073] Bluetooth: Core ver 2.16
-[    5.444559] NET: Registered protocol family 31
-[    5.444583] Bluetooth: HCI device and connection manager initialized
-[    5.444639] Bluetooth: HCI socket layer initialized
-[    5.444670] Bluetooth: L2CAP socket layer initialized
-[    5.450497] Bluetooth: SCO socket layer initialized
-[    5.465936] btusb 1-1:1.0: usb_probe_interface
-[    5.465966] btusb 1-1:1.0: usb_probe_interface - got id
-[    5.473597] usbcore: registered new interface driver btusb
-[    6.043880] EXT4-fs (mmcblk0p2): re-mounted. Opts: errors=remount-ro
-[    8.448286] Bluetooth: RFCOMM TTY layer initialized
-[    8.448376] Bluetooth: RFCOMM socket layer initialized
-[    8.448387] Bluetooth: RFCOMM ver 1.11
-[    8.959050] init: failsafe main process (316) killed by TERM signal
-[    9.218554] init: udev-fallback-graphics main process (366) terminated with status 1
-[   10.172459]  gadget: using random self ethernet address
-[   10.172493]  gadget: using random host ethernet address
-[   10.174168] usb0: MAC 52:40:37:b0:c3:cd
-[   10.174187] usb0: HOST MAC ae:34:c5:30:cb:be
-[   10.176709]  gadget: Ethernet Gadget, version: Memorial Day 2008
-[   10.176750]  gadget: g_ether ready
-[   10.176795] musb-hdrc musb-hdrc.0.auto: MUSB HDRC host driver
-[   10.177161] musb-hdrc musb-hdrc.0.auto: new USB bus registered, assigned bus number 2
-[   10.177191] musb-hdrc musb-hdrc.0.auto: supports USB remote wakeup
-[   10.177273] usb usb2: default language 0x0409
-[   10.177307] usb usb2: udev 1, busnum 2, minor = 128
-[   10.177320] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
-[   10.177332] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-[   10.177414] usb usb2: Product: MUSB HDRC host driver
-[   10.177426] usb usb2: Manufacturer: Linux 3.8.13-bone28 musb-hcd
-[   10.177436] usb usb2: SerialNumber: musb-hdrc.0.auto
-[   10.180867] usb usb2: usb_probe_device
-[   10.180890] usb usb2: configuration #1 chosen from 1 choice
-[   10.180956] usb usb2: adding 2-0:1.0 (config #1, interface 0)
-[   10.181088] hub 2-0:1.0: usb_probe_interface
-[   10.181101] hub 2-0:1.0: usb_probe_interface - got id
-[   10.181123] hub 2-0:1.0: USB hub found
-[   10.181150] hub 2-0:1.0: 1 port detected
-[   10.181160] hub 2-0:1.0: standalone hub
-[   10.181170] hub 2-0:1.0: individual port power switching
-[   10.181179] hub 2-0:1.0: no over-current protection
-[   10.181188] hub 2-0:1.0: Single TT
-[   10.181200] hub 2-0:1.0: TT requires at most 8 FS bit times (666 ns)
-[   10.181210] hub 2-0:1.0: power on to power good time: 10ms
-[   10.181233] hub 2-0:1.0: local power source is good
-[   10.181302] hub 2-0:1.0: enabling power on all ports
-[   10.282221] hub 2-0:1.0: state 7 ports 1 chg 0000 evt 0000
-[   10.282298] hub 2-0:1.0: hub_suspend
-[   10.282329] usb usb2: bus auto-suspend, wakeup 1
-[   10.355499] CAUTION: musb: Babble Interrupt Occurred
-[   10.397803] CAUTION: musb: Babble Interrupt Occurred
+[    0.000386] Calibrating delay loop... 363.67 BogoMIPS (lpj=354304)
+[    0.017386] pid_max: default: 32768 minimum: 301
+[    0.017633] Security Framework initialized
+[    0.017736] Mount-cache hash table entries: 512
+[    0.027218] Initializing cgroup subsys cpuacct
+[    0.027254] Initializing cgroup subsys memory
+[    0.027326] Initializing cgroup subsys blkio
+[    0.027475] CPU: Testing write buffer coherency: ok
+[    0.028065] CPU0: thread -1, cpu 0, socket -1, mpidr 0
+[    0.028149] Setting up static identity map for 0x8061b340 - 0x8061b398
+[    0.029839] Brought up 1 CPUs
+[    0.029866] SMP: Total of 1 processors activated (363.67 BogoMIPS).
+[    0.031216] devtmpfs: initialized
+[    0.095266] pinctrl core: initialized pinctrl subsystem
+[    0.095577] rstctl core: initialized rstctl subsystem
+[    0.096088] regulator-dummy: no parameters
+[    0.096636] NET: Registered protocol family 16
+[    0.097642] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.107893] pinctrl-single 44e10800.pinmux: 142 pins at pa f9e10800 size 568
+[    0.108655] platform 49000000.edma: alias fck already exists
+[    0.108686] platform 49000000.edma: alias fck already exists
+[    0.108710] platform 49000000.edma: alias fck already exists
+[    0.109948] gpiochip_add: registered GPIOs 0 to 31 on device: gpio
+[    0.110127] OMAP GPIO hardware version 0.1
+[    0.111657] gpiochip_add: registered GPIOs 32 to 63 on device: gpio
+[    0.112955] gpiochip_add: registered GPIOs 64 to 95 on device: gpio
+[    0.114351] gpiochip_add: registered GPIOs 96 to 127 on device: gpio
+[    0.114843] of_get_named_gpio_flags exited with status 52
+[    0.114874] gpio-rctrl rstctl.3: loaded OK
+[    0.120374] hw-breakpoint: debug architecture 0x4 unsupported.
+[    0.122551] cpsw.0: No hwaddr in dt. Using 90:59:af:4c:12:6c from efuse
+[    0.122585] cpsw.1: No hwaddr in dt. Using 90:59:af:4c:12:6e from efuse
+[    0.136847] bio: create slab <bio-0> at 0
+[    0.148485] edma-dma-engine edma-dma-engine.0: TI EDMA DMA engine driver
+[    0.148714] of_get_named_gpio_flags: can't parse gpios property
+[    0.148944] vmmcsd_fixed: 3300 mV 
+[    0.151697] SCSI subsystem initialized
+[    0.152117] usbcore: registered new interface driver usbfs
+[    0.152287] usbcore: registered new interface driver hub
+[    0.152612] usbcore: registered new device driver usb
+[    0.154742] omap_i2c 44e0b000.i2c: bus 0 rev0.11 at 400 kHz
+[    0.156363] input: tps65217_pwr_but as /devices/ocp.2/44e0b000.i2c/i2c-0/0-0024/input/input0
+[    0.158285] DCDC1: at 1500 mV 
+[    0.159463] vdd_mpu: 925 <--> 1325 mV at 950 mV 
+[    0.160675] vdd_core: 925 <--> 1150 mV at 1100 mV 
+[    0.161812] LDO1: at 1800 mV 
+[    0.162965] LDO2: at 3300 mV 
+[    0.164963] LDO3: 1800 mV 
+[    0.166132] LDO4: at 3300 mV 
+[    0.167150] tps65217 0-0024: TPS65217 ID 0xe version 1.2
+[    0.168014] omap_i2c 44e0b000.i2c: unable to select pin group
+[    0.168853] omap_i2c 4819c000.i2c: bus 1 rev0.11 at 100 kHz
+[    0.171415] omap_i2c 4819c000.i2c: unable to select pin group
+[    0.171652] media: Linux media interface: v0.10
+[    0.171888] Linux video capture interface: v2.00
+[    0.172023] pps_core: LinuxPPS API ver. 1 registered
+[    0.172039] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.172733] Advanced Linux Sound Architecture Driver Initialized.
+[    0.173815] NetLabel: Initializing
+[    0.173836] NetLabel:  domain hash size = 128
+[    0.173847] NetLabel:  protocols = UNLABELED CIPSOv4
+[    0.173965] NetLabel:  unlabeled traffic allowed by default
+[    0.174344] Switching to clocksource gp_timer
+[    0.230878] NET: Registered protocol family 2
+[    0.232080] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.232223] TCP bind hash table entries: 4096 (order: 4, 81920 bytes)
+[    0.232373] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.232474] TCP: reno registered
+[    0.232500] UDP hash table entries: 256 (order: 1, 12288 bytes)
+[    0.232543] UDP-Lite hash table entries: 256 (order: 1, 12288 bytes)
+[    0.232975] NET: Registered protocol family 1
+[    0.233698] RPC: Registered named UNIX socket transport module.
+[    0.233723] RPC: Registered udp transport module.
+[    0.233737] RPC: Registered tcp transport module.
+[    0.233750] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.234887] CPU PMU: probing PMU on CPU 0
+[    0.234921] hw perfevents: enabled with ARMv7 Cortex-A8 PMU driver, 5 counters available
+[    0.235603] omap2_mbox_probe: platform not supported
+[    0.505567] VFS: Disk quotas dquot_6.5.2
+[    0.505846] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.507258] NFS: Registering the id_resolver key type
+[    0.507368] Key type id_resolver registered
+[    0.507385] Key type id_legacy registered
+[    0.507457] fuse init (API version 7.20)
+[    0.508325] Btrfs loaded
+[    0.508625] msgmni has been set to 990
+[    0.511643] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+[    0.511671] io scheduler noop registered
+[    0.511686] io scheduler deadline registered
+[    0.511727] io scheduler cfq registered (default)
+[    0.513688] tps65217-bl tps65217-bl: no platform data provided
+[    0.513734] tps65217-bl: probe of tps65217-bl failed with error -22
+[    0.514703] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    0.517321] omap_uart 44e09000.serial: did not get pins for uart0 error: -19
+[    0.517660] 44e09000.serial: ttyO0 at MMIO 0x44e09000 (irq = 88) is a OMAP UART0
+[    1.249307] console [ttyO0] enabled
+[    1.254216] [drm] Initialized drm 1.1.0 20060810
+[    1.272693] brd: module loaded
+[    1.282987] loop: module loaded
+[    1.286456] at24 0-0050: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    1.293760] at24 1-0054: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    1.301047] at24 1-0055: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    1.308329] at24 1-0056: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    1.315610] at24 1-0057: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    1.329957] bone-capemgr bone_capemgr.9: Baseboard: 'A335BNLT,0A5C,2313BBBK3587'
+[    1.337763] bone-capemgr bone_capemgr.9: compatible-baseboard=ti,beaglebone-black
+[    1.345673] bone-capemgr bone_capemgr.9: Skipping disabled cape with part# BB-BONELT-HDMI
+[    1.378425] bone-capemgr bone_capemgr.9: slot #0: 'BeagleBone AUDIO CAPE,00A1,Beagleboardtoys,BB-BONE-AUDI-01'
+[    1.418612] bone-capemgr bone_capemgr.9: slot #1: No cape found
+[    1.455717] bone-capemgr bone_capemgr.9: slot #2: No cape found
+[    1.492827] bone-capemgr bone_capemgr.9: slot #3: No cape found
+[    1.499094] bone-capemgr bone_capemgr.9: slot #4: specific override
+[    1.505701] bone-capemgr bone_capemgr.9: bone: Using override eeprom data at slot 4
+[    1.513745] bone-capemgr bone_capemgr.9: slot #4: 'Bone-LT-eMMC-2G,00A0,Texas Instrument,BB-BONE-EMMC-2G'
+[    1.523893] bone-capemgr bone_capemgr.9: slot #5: specific override
+[    1.530498] bone-capemgr bone_capemgr.9: bone: Using override eeprom data at slot 5
+[    1.538541] bone-capemgr bone_capemgr.9: slot #5: 'Bone-Black-HDMI,00A0,Texas Instrument,BB-BONELT-HDMI'
+[    1.548755] bone-capemgr bone_capemgr.9: Skipping loading of disabled cape with part# BB-BONELT-HDMI
+[    1.558623] bone-capemgr bone_capemgr.9: loader: before slot-0 BB-BONE-AUDI-01:00A1 (prio 0)
+[    1.567508] bone-capemgr bone_capemgr.9: loader: check slot-0 BB-BONE-AUDI-01:00A1 (prio 0)
+[    1.576318] bone-capemgr bone_capemgr.9: initialized OK.
+[    1.581929] bone-capemgr bone_capemgr.9: loader: before slot-4 BB-BONE-EMMC-2G:00A0 (prio 1)
+[    1.590790] bone-capemgr bone_capemgr.9: loader: check slot-4 BB-BONE-EMMC-2G:00A0 (prio 1)
+[    1.601588] OneNAND driver initializing
+[    1.607159] usbcore: registered new interface driver cdc_ether
+[    1.613357] bone-capemgr bone_capemgr.9: loader: after slot-0 BB-BONE-AUDI-01:00A1 (prio 0)
+[    1.622220] usbcore: registered new interface driver rndis_host
+[    1.628528] bone-capemgr bone_capemgr.9: loader: check slot-4 BB-BONE-EMMC-2G:00A0 (prio 1)
+[    1.637444] usbcore: registered new interface driver cdc_ncm
+[    1.643422] bone-capemgr bone_capemgr.9: slot #0: Requesting part number/version based 'BB-BONE-AUDI-01-00A1.dtbo
+[    1.655095] usbcore: registered new interface driver cdc_acm
+[    1.661061] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    1.669457] Initializing USB Mass Storage driver...
+[    1.674614] bone-capemgr bone_capemgr.9: slot #0: Requesting firmware 'BB-BONE-AUDI-01-00A1.dtbo' for board-name 'BeagleBone AUDIO CAPE', version '00A1'
+[    1.689041] usbcore: registered new interface driver usb-storage
+[    1.695359] USB Mass Storage support registered.
+[    1.700769] musb-hdrc: version 6.0, ?dma?, otg (peripheral+host)
+[    1.707569] musb-hdrc musb-hdrc.0.auto: pdev->id = 0
+[    1.712857] musb-hdrc musb-hdrc.0.auto: drivers/usb/musb/musb_dsps.c:468 dsps_musb_init: OK
+[    1.721676] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+[    1.721697] musb-hdrc: MHDRC RTL version 2.0 
+[    1.721711] musb-hdrc: setup fifo_mode 4
+[    1.721738] musb-hdrc: 28/31 max ep, 16384/16384 memory
+[    1.721891] musb-hdrc musb-hdrc.0.auto: *** mode=3
+[    1.726973] musb-hdrc musb-hdrc.0.auto: *** power=250
+[    1.733085] musb-hdrc musb-hdrc.1.auto: pdev->id = 1
+[    1.738336] musb-hdrc musb-hdrc.1.auto: drivers/usb/musb/musb_dsps.c:468 dsps_musb_init: OK
+[    1.747120] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+[    1.747139] musb-hdrc: MHDRC RTL version 2.0 
+[    1.747151] musb-hdrc: setup fifo_mode 4
+[    1.747171] musb-hdrc: 28/31 max ep, 16384/16384 memory
+[    1.747317] musb-hdrc musb-hdrc.1.auto: *** mode=1
+[    1.752373] musb-hdrc musb-hdrc.1.auto: *** power=250
+[    1.757690] musb-hdrc musb-hdrc.1.auto: MUSB HDRC host driver
+[    1.764111] musb-hdrc musb-hdrc.1.auto: new USB bus registered, assigned bus number 1
+[    1.772375] musb-hdrc musb-hdrc.1.auto: supports USB remote wakeup
+[    1.772509] usb usb1: default language 0x0409
+[    1.772568] usb usb1: udev 1, busnum 1, minor = 0
+[    1.772590] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.779740] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.787325] usb usb1: Product: MUSB HDRC host driver
+[    1.792549] usb usb1: Manufacturer: Linux 3.8.13-bone28 musb-hcd
+[    1.798860] usb usb1: SerialNumber: musb-hdrc.1.auto
+[    1.804839] usb usb1: usb_probe_device
+[    1.804869] usb usb1: configuration #1 chosen from 1 choice
+[    1.804940] usb usb1: adding 1-0:1.0 (config #1, interface 0)
+[    1.805175] hub 1-0:1.0: usb_probe_interface
+[    1.805198] hub 1-0:1.0: usb_probe_interface - got id
+[    1.805228] hub 1-0:1.0: USB hub found
+[    1.809314] hub 1-0:1.0: 1 port detected
+[    1.813499] hub 1-0:1.0: standalone hub
+[    1.813518] hub 1-0:1.0: individual port power switching
+[    1.813536] hub 1-0:1.0: no over-current protection
+[    1.813551] hub 1-0:1.0: Single TT
+[    1.813570] hub 1-0:1.0: TT requires at most 8 FS bit times (666 ns)
+[    1.813588] hub 1-0:1.0: power on to power good time: 10ms
+[    1.813631] hub 1-0:1.0: local power source is good
+[    1.813756] hub 1-0:1.0: enabling power on all ports
+[    1.814834] mousedev: PS/2 mouse device common for all mice
+[    1.823284] omap_rtc 44e3e000.rtc: rtc core: registered 44e3e000.rtc as rtc0
+[    1.830812] 44e3e000.rtc: already running
+[    1.835295] i2c /dev entries driver
+[    1.840679] pps_ldisc: PPS line discipline registered
+[    1.846156] Driver for 1-wire Dallas network protocol.
+[    1.853208] omap_wdt: OMAP Watchdog Timer Rev 0x01: initial timeout 60 sec
+[    1.861183] device-mapper: ioctl: 4.23.1-ioctl (2012-12-18) initialised: dm-devel@redhat.com
+[    1.870180] cpuidle: using governor ladder
+[    1.874545] cpuidle: using governor menu
+[    1.879086] of_get_named_gpio_flags: can't parse gpios property
+[    1.879107] of_get_named_gpio_flags: can't parse gpios property
+[    1.879122] of_get_named_gpio_flags: can't parse gpios property
+[    1.879157] omap_hsmmc mmc.4: of_parse_phandle_with_args of 'reset' failed
+[    1.886397] omap_hsmmc mmc.4: Failed to get rstctl; not using any
+[    1.892837] omap_hsmmc mmc.4: unable to select pin group
+[    1.898707] edma-dma-engine edma-dma-engine.0: allocated channel for 0:25
+[    1.905925] edma-dma-engine edma-dma-engine.0: allocated channel for 0:24
+[    1.913324] mmc.4 supply vmmc_aux not found, using dummy regulator
+[    1.920020] hub 1-0:1.0: state 7 ports 1 chg 0000 evt 0000
+[    1.920106] hub 1-0:1.0: hub_suspend
+[    1.920150] usb usb1: bus auto-suspend, wakeup 1
+[    1.920443] omap_hsmmc mmc.4: pins are not configured from the driver
+[    1.953926] of_get_named_gpio_flags: can't parse gpios property
+[    1.953950] of_get_named_gpio_flags: can't parse gpios property
+[    1.953965] of_get_named_gpio_flags: can't parse gpios property
+[    1.954012] gpio-rctrl rstctl.3: gpio_rctrl_request eMMC_RSTn
+[    1.960240] omap_hsmmc mmc.5: Got rstctl (gpio:#0 name eMMC_RSTn) label:eMMC_RSTn-CONSUMER
+[    1.968980] gpio-rctrl rstctl.3: gpio_rctrl_deassert eMMC_RSTn
+[    1.975180] omap_hsmmc mmc.5: unable to select pin group
+[    1.981114] edma-dma-engine edma-dma-engine.0: allocated channel for 0:3
+[    1.988268] edma-dma-engine edma-dma-engine.0: allocated channel for 0:2
+[    1.995540] mmc.5 supply vmmc_aux not found, using dummy regulator
+[    2.002671] omap_hsmmc mmc.5: pins are not configured from the driver
+[    2.036403] pinctrl-single 44e10800.pinmux: pin 44e10854 already requested by 44e10800.pinmux; cannot claim for gpio-leds.8
+[    2.048145] pinctrl-single 44e10800.pinmux: pin-21 (gpio-leds.8) status -22
+[    2.055462] pinctrl-single 44e10800.pinmux: could not request pin 21 on device pinctrl-single
+[    2.064452] leds-gpio gpio-leds.8: pins are not configured from the driver
+[    2.071721] of_get_named_gpio_flags exited with status 53
+[    2.071744] of_get_named_gpio_flags exited with status 54
+[    2.071764] of_get_named_gpio_flags exited with status 55
+[    2.071784] of_get_named_gpio_flags exited with status 56
+[    2.071814] of_get_named_gpio_flags exited with status 53
+[    2.072050] of_get_named_gpio_flags exited with status 54
+[    2.072258] of_get_named_gpio_flags exited with status 55
+[    2.072450] of_get_named_gpio_flags exited with status 56
+[    2.073049] ledtrig-cpu: registered to indicate activity on CPUs
+[    2.079905] edma-dma-engine edma-dma-engine.0: allocated channel for 0:36
+[    2.087199] omap-sham 53100000.sham: hw accel on OMAP rev 4.3
+[    2.093379] usb usb1: usb wakeup-resume
+[    2.093427] usb usb1: usb auto-resume
+[    2.093456] hub 1-0:1.0: hub_resume
+[    2.093512] hub 1-0:1.0: port 1: status 0101 change 0001
+[    2.096437] omap-aes 53500000.aes: OMAP AES hw accel rev: 3.2
+[    2.102844] edma-dma-engine edma-dma-engine.0: allocated channel for 0:5
+[    2.110075] mmc0: host does not support reading read-only switch. assuming write-enable.
+[    2.118722] edma-dma-engine edma-dma-engine.0: allocated channel for 0:6
+[    2.126921] usbcore: registered new interface driver usbhid
+[    2.132892] usbhid: USB HID core driver
+[    2.137066] mmc0: new high speed SDHC card at address 0007
+[    2.144911] ashmem: initialized
+[    2.148425] mmcblk0: mmc0:0007 SD8GB 7.42 GiB 
+[    2.153603] logger: created 256K log 'log_main'
+[    2.159912] logger: created 256K log 'log_events'
+[    2.165135]  mmcblk0: p1 p2
+[    2.169079] logger: created 256K log 'log_radio'
+[    2.175326] logger: created 256K log 'log_system'
+[    2.183638] TCP: cubic registered
+[    2.187449] NET: Registered protocol family 10
+[    2.193591] NET: Registered protocol family 17
+[    2.198508] hub 1-0:1.0: state 7 ports 1 chg 0002 evt 0000
+[    2.198582] hub 1-0:1.0: port 1, status 0101, change 0000, 12 Mb/s
+[    2.199032] Key type dns_resolver registered
+[    2.203976] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+[    2.212183] ThumbEE CPU extension supported.
+[    2.216746] Registering SWP/SWPB emulation handler
+[    2.223169] registered taskstats version 1
+[    2.277657] mmc1: BKOPS_EN bit is not set
+[    2.281963] davinci_mdio 4a101000.mdio: davinci mdio revision 1.6
+[    2.288380] davinci_mdio 4a101000.mdio: detected phy mask fffffffe
+[    2.296206] libphy: 4a101000.mdio: probed
+[    2.300520] davinci_mdio 4a101000.mdio: phy[0]: device 4a101000.mdio:00, driver SMSC LAN8710/LAN8720
+[    2.310244] usb 1-1: new full-speed USB device number 2 using musb-hdrc
+[    2.317513] Detected MACID = 90:59:af:4c:12:6c
+[    2.322318] cpsw 4a100000.ethernet: NAPI disabled
+[    2.330040] mmc1: new high speed MMC card at address 0001
+[    2.335884] omap_rtc 44e3e000.rtc: setting system clock to 2000-01-01 00:16:46 UTC (946685806)
+[    2.345842] mmcblk1: mmc1:0001 MMC02G 1.78 GiB 
+[    2.352433] mmcblk1boot0: mmc1:0001 MMC02G partition 1 1.00 MiB
+[    2.359864] mmcblk1boot1: mmc1:0001 MMC02G partition 2 1.00 MiB
+[    2.371770] ALSA device list:
+[    2.374959]   No soundcards found.
+[    2.378684]  mmcblk1: p1 p2
+[    2.384384]  mmcblk1boot1: unknown partition table
+[    2.391056]  mmcblk1boot0: unknown partition table
+[    2.428933] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[    2.437688] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+[    2.449704] devtmpfs: mounted
+[    2.453366] Freeing init memory: 292K
+[    2.458951] usb 1-1: skipped 1 descriptor after interface
+[    2.459141] usb 1-1: default language 0x0409
+[    2.459772] usb 1-1: udev 2, busnum 1, minor = 1
+[    2.459787] usb 1-1: New USB device found, idVendor=0a5c, idProduct=21e8
+[    2.466853] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    2.474334] usb 1-1: Product: BCM20702A0
+[    2.478451] usb 1-1: Manufacturer: Broadcom Corp
+[    2.483294] usb 1-1: SerialNumber: 0002723347DC
+[    2.488617] usb 1-1: usb_probe_device
+[    2.488637] usb 1-1: configuration #1 chosen from 1 choice
+[    2.488854] usb 1-1: adding 1-1:1.0 (config #1, interface 0)
+[    2.489286] usb 1-1: adding 1-1:1.1 (config #1, interface 1)
+[    2.489552] usb 1-1: adding 1-1:1.2 (config #1, interface 2)
+[    2.489818] usb 1-1: adding 1-1:1.3 (config #1, interface 3)
+[    2.490097] hub 1-0:1.0: state 7 ports 1 chg 0000 evt 0002
+[    2.490135] hub 1-0:1.0: port 1 enable change, status 00000103
+[    3.549301] init: ureadahead main process (85) terminated with status 5
+[    4.334804] udevd[142]: starting version 175
+[    4.680234] bone-capemgr bone_capemgr.9: slot #0: dtbo 'BB-BONE-AUDI-01-00A1.dtbo' loaded; converting to live tree
+[    4.680662] bone-capemgr bone_capemgr.9: slot #0: #5 overlays
+[    4.681716] of_get_named_gpio_flags exited with status 51
+[    4.681735] of_get_named_gpio_flags exited with status 50
+[    4.681748] of_get_named_gpio_flags exited with status 51
+[    4.681950] of_get_named_gpio_flags exited with status 50
+[    4.738302] of_get_named_gpio_flags: can't parse gpios property
+[    4.741581] 1-001b supply IOVDD not found, using dummy regulator
+[    4.741675] 1-001b supply DVDD not found, using dummy regulator
+[    4.741735] 1-001b supply AVDD not found, using dummy regulator
+[    4.741796] 1-001b supply DRVDD not found, using dummy regulator
+[    4.748568] davinci_evm sound.12:  tlv320aic3x-hifi <-> 48038000.mcasp mapping ok
+[    4.768662] bone-capemgr bone_capemgr.9: slot #0: Applied #5 overlays.
+[    4.768688] bone-capemgr bone_capemgr.9: loader: done slot-0 BB-BONE-AUDI-01:00A1 (prio 0)
+[    4.768727] bone-capemgr bone_capemgr.9: loader: check slot-4 BB-BONE-EMMC-2G:00A0 (prio 1)
+[    4.768746] bone-capemgr bone_capemgr.9: loader: after slot-4 BB-BONE-EMMC-2G:00A0 (prio 1)
+[    4.768773] bone-capemgr bone_capemgr.9: slot #4: Requesting firmware 'cape-bone-2g-emmc1.dtbo' for board-name 'Bone-LT-eMMC-2G', version '00A0'
+[    4.768792] bone-capemgr bone_capemgr.9: slot #4: dtbo 'cape-bone-2g-emmc1.dtbo' loaded; converting to live tree
+[    4.769098] bone-capemgr bone_capemgr.9: slot #4: #2 overlays
+[    4.769325] bone-capemgr bone_capemgr.9: slot #4: Applied #2 overlays.
+[    4.769341] bone-capemgr bone_capemgr.9: loader: done slot-4 BB-BONE-EMMC-2G:00A0 (prio 1)
+[    5.528180] Bluetooth: Core ver 2.16
+[    5.530422] NET: Registered protocol family 31
+[    5.530443] Bluetooth: HCI device and connection manager initialized
+[    5.530499] Bluetooth: HCI socket layer initialized
+[    5.530517] Bluetooth: L2CAP socket layer initialized
+[    5.530598] Bluetooth: SCO socket layer initialized
+[    5.544387] btusb 1-1:1.0: usb_probe_interface
+[    5.544416] btusb 1-1:1.0: usb_probe_interface - got id
+[    5.550095] usbcore: registered new interface driver btusb
+[    6.206024] EXT4-fs (mmcblk0p2): re-mounted. Opts: errors=remount-ro
+[    8.913454] init: udev-fallback-graphics main process (343) terminated with status 1
+[    9.215764] init: failsafe main process (337) killed by TERM signal
+[   10.291276] Bluetooth: RFCOMM TTY layer initialized
+[   10.291366] Bluetooth: RFCOMM socket layer initialized
+[   10.291378] Bluetooth: RFCOMM ver 1.11
+[   11.403254]  gadget: using random self ethernet address
+[   11.403288]  gadget: using random host ethernet address
+[   11.406177] usb0: MAC 12:07:8e:5a:b7:4b
+[   11.406196] usb0: HOST MAC aa:5a:41:1f:d1:d6
+[   11.408648]  gadget: Ethernet Gadget, version: Memorial Day 2008
+[   11.408692]  gadget: g_ether ready
+[   11.408738] musb-hdrc musb-hdrc.0.auto: MUSB HDRC host driver
+[   11.409884] musb-hdrc musb-hdrc.0.auto: new USB bus registered, assigned bus number 2
+[   11.409919] musb-hdrc musb-hdrc.0.auto: supports USB remote wakeup
+[   11.410004] usb usb2: default language 0x0409
+[   11.410040] usb usb2: udev 1, busnum 2, minor = 128
+[   11.410052] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+[   11.410064] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[   11.410076] usb usb2: Product: MUSB HDRC host driver
+[   11.410086] usb usb2: Manufacturer: Linux 3.8.13-bone28 musb-hcd
+[   11.410097] usb usb2: SerialNumber: musb-hdrc.0.auto
+[   11.412257] usb usb2: usb_probe_device
+[   11.412280] usb usb2: configuration #1 chosen from 1 choice
+[   11.412337] usb usb2: adding 2-0:1.0 (config #1, interface 0)
+[   11.412471] hub 2-0:1.0: usb_probe_interface
+[   11.412484] hub 2-0:1.0: usb_probe_interface - got id
+[   11.412505] hub 2-0:1.0: USB hub found
+[   11.412532] hub 2-0:1.0: 1 port detected
+[   11.412543] hub 2-0:1.0: standalone hub
+[   11.412552] hub 2-0:1.0: individual port power switching
+[   11.412562] hub 2-0:1.0: no over-current protection
+[   11.412571] hub 2-0:1.0: Single TT
+[   11.412583] hub 2-0:1.0: TT requires at most 8 FS bit times (666 ns)
+[   11.412593] hub 2-0:1.0: power on to power good time: 10ms
+[   11.412617] hub 2-0:1.0: local power source is good
+[   11.412687] hub 2-0:1.0: enabling power on all ports
+[   11.530134] hub 2-0:1.0: state 7 ports 1 chg 0000 evt 0000
+[   11.530209] hub 2-0:1.0: hub_suspend
+[   11.530240] usb usb2: bus auto-suspend, wakeup 1
+[   11.599795] CAUTION: musb: Babble Interrupt Occurred

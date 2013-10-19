@@ -1,28 +1,11 @@
 fsck from util-linux 2.20.1
-rootfs: clean, 17908/72720 files, 147527/290812 blocks
- * Stopping Mount network filesystems[74G[ OK ]
- * Starting configure network device[74G[ OK ]
- * Stopping Failsafe Boot Delay[74G[ OK ]
- * Starting System V initialisation compatibility[74G[ OK ]
- * Starting set sysctls from /etc/sysctl.conf[74G[ OK ]
- * Stopping set sysctls from /etc/sysctl.conf[74G[ OK ]
- * Stopping cold plug devices[74G[ OK ]
- * Stopping log initial device creation[74G[ OK ]
- * Starting load fallback graphics devices[74G[ OK ]
- * Starting configure network device security[74G[ OK ]
- * Starting load fallback graphics devices[74G[[31mfail[39;49m]
- * Starting configure virtual network devices[74G[ OK ]
- * Stopping configure virtual network devices[74G[ OK ]
- * Starting save udev log and update rules[74G[ OK ]
- * Stopping save udev log and update rules[74G[ OK ]
- * Starting Send an event to indicate plymouth is up[74G[ OK ]
- * Stopping System V initialisation compatibility[74G[ OK ]
- * Stopping Send an event to indicate plymouth is up[74G[ OK ]
+rootfs: clean, 19407/112672 files, 159274/449820 blocks
 udhcpd: Disabled. Edit /etc/default/udhcpd to enable it.
+ * Stopping System V initialisation compatibility[74G[ OK ]
+ * Starting bluetooth daemon[74G[ OK ]
  * Starting System V runlevel compatibility[74G[ OK ]
  * Starting save kernel messages[74G[ OK ]
  * Starting regular background program processing daemon[74G[ OK ]
- * Starting Bridge socket events into upstart[74G[ OK ]
  * Starting configure network device security[74G[ OK ]
  * Starting configure network device[74G[ OK ]
 method return sender=:1.2 -> dest=:1.3 reply_serial=2

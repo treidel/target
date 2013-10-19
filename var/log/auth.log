@@ -162,3 +162,31 @@ Jan  1 00:00:36 ubuntu-armhf su[467]: pam_unix(su:session): session opened for u
 Jan  1 00:05:40 ubuntu-armhf sshd[280]: Received signal 15; terminating.
 Jan  1 00:05:40 ubuntu-armhf su[467]: pam_unix(su:session): session closed for user root
 Jan  1 00:05:40 ubuntu-armhf sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:07:04 ubuntu-armhf sshd[282]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:07:04 ubuntu-armhf sshd[282]: Server listening on :: port 22.
+Jan  1 00:00:15 ubuntu-armhf sshd[341]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:15 ubuntu-armhf sshd[341]: Server listening on :: port 22.
+Jan  1 00:00:22 ubuntu-armhf login[445]: pam_unix(login:account): account ubuntu has password changed in future
+Jan  1 00:00:22 ubuntu-armhf login[445]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:00:22 ubuntu-armhf login[445]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jan  1 00:04:27 ubuntu-armhf sudo: pam_unix(sudo:account): account ubuntu has password changed in future
+Jan  1 00:04:27 ubuntu-armhf sudo:   ubuntu : TTY=ttyO0 ; PWD=/sys/devices/ocp.2/4a100000.ethernet ; USER=root ; COMMAND=/bin/su -
+Jan  1 00:04:27 ubuntu-armhf sudo: pam_env(sudo:setcred): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:04:27 ubuntu-armhf sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=1000)
+Jan  1 00:04:27 ubuntu-armhf su[485]: pam_unix(su:account): account root has password changed in future
+Jan  1 00:04:27 ubuntu-armhf su[485]: Successful su for root by root
+Jan  1 00:04:27 ubuntu-armhf su[485]: + /dev/ttyO0 root:root
+Jan  1 00:04:27 ubuntu-armhf su[485]: pam_env(su:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:04:27 ubuntu-armhf su[485]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
+Jan  1 00:12:06 ubuntu-armhf groupadd[600]: group added to /etc/group: name=i2c, GID=108
+Jan  1 00:12:07 ubuntu-armhf groupadd[600]: group added to /etc/gshadow: name=i2c
+Jan  1 00:12:07 ubuntu-armhf groupadd[600]: new group: name=i2c, GID=108
+Jan  1 00:16:54 ubuntu-armhf sshd[350]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:16:54 ubuntu-armhf sshd[350]: Server listening on :: port 22.
+Jan  1 00:17:00 ubuntu-armhf login[445]: pam_unix(login:account): account ubuntu has password changed in future
+Jan  1 00:17:00 ubuntu-armhf login[445]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:17:00 ubuntu-armhf login[445]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jan  1 00:17:01 ubuntu-armhf CRON[467]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:17:01 ubuntu-armhf CRON[467]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jan  1 00:17:01 ubuntu-armhf CRON[467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 ubuntu-armhf CRON[467]: pam_unix(cron:session): session closed for user root

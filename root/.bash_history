@@ -54,3 +54,15 @@ ping www.yahoo.com
 apt-get install libini-config2
 shutdown
 shutdown now
+ifconfig -a
+ifconfig usb0 192.168.7.2 255.255.255.252 
+ifconfig usb0 192.168.7.2 netmask 255.255.255.252 
+route add default gw 192.168.7.1
+ping 192.168.7.1
+ping 192.168.0.1
+apt-get install i2c-tools
+cd /etc/network
+ls
+vim interfaces 
+vi interfaces 
+reboot
