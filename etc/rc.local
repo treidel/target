@@ -19,4 +19,7 @@ dbus-send --print-reply --system --dest=org.bluez /org/bluez/$(pidof bluetoothd)
 # turn on public discovery of this device
 hciconfig hci0 piscan
 
+# setup the ALSA mixer settings
+alsactl --file /etc/alsa.ctl --no-init-fallback restore
+
 exit 0
